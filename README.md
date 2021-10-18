@@ -6,6 +6,7 @@
 
 3--> sbt run
 
+
 *******CURL***********
 
 GET  /healthcheck
