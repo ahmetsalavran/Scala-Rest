@@ -1,0 +1,19 @@
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\repositories\MessagesRepository.scala:23:13: method toDocumentWriter in trait LowPriorityPackage is deprecated (since 0.19.0): Use reactivemongo-bson-api or use reactivemongo-bson-compat: import reactivemongo.api.bson.compat._[0m
+[0m[[0m[33mwarn[0m] [0m[0m      _.find(BSONDocument("tags" -> tag), Option.empty[Todb])[0m
+[0m[[0m[33mwarn[0m] [0m[0m            ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\repositories\MessagesRepository.scala:24:22: method toDocumentReader in trait LowPriorityPackage is deprecated (since 0.19.0): Use reactivemongo-bson-api or use reactivemongo-bson-compat: import reactivemongo.api.bson.compat._[0m
+[0m[[0m[33mwarn[0m] [0m[0m        .cursor[Todb](ReadPreference.Primary)[0m
+[0m[[0m[33mwarn[0m] [0m[0m                     ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\repositories\MessagesRepository.scala:32:11: method toDocumentWriter in trait LowPriorityPackage is deprecated (since 0.19.0): Use reactivemongo-bson-api or use reactivemongo-bson-compat: import reactivemongo.api.bson.compat._[0m
+[0m[[0m[33mwarn[0m] [0m[0m      .one(todb.copy()))[0m
+[0m[[0m[33mwarn[0m] [0m[0m          ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\repositories\MessagesRepository.scala:36:30: method toDocumentWriter in trait LowPriorityPackage is deprecated (since 0.19.0): Use reactivemongo-bson-api or use reactivemongo-bson-compat: import reactivemongo.api.bson.compat._[0m
+[0m[[0m[33mwarn[0m] [0m[0m    collection.flatMap(_.find(BSONDocument("_id" -> id), Option.empty[Todb]).one[Todb])[0m
+[0m[[0m[33mwarn[0m] [0m[0m                             ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\repositories\MessagesRepository.scala:36:81: method toDocumentReader in trait LowPriorityPackage is deprecated (since 0.19.0): Use reactivemongo-bson-api or use reactivemongo-bson-compat: import reactivemongo.api.bson.compat._[0m
+[0m[[0m[33mwarn[0m] [0m[0m    collection.flatMap(_.find(BSONDocument("_id" -> id), Option.empty[Todb]).one[Todb])[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                                ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\repositories\MessagesRepository.scala:41:21: method toDocumentWriter in trait LowPriorityPackage is deprecated (since 0.19.0): Use reactivemongo-bson-api or use reactivemongo-bson-compat: import reactivemongo.api.bson.compat._[0m
+[0m[[0m[33mwarn[0m] [0m[0m      _.delete().one(BSONDocument("_id" -> id), Some(1))[0m
+[0m[[0m[33mwarn[0m] [0m[0m                    ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m6 warnings found[0m

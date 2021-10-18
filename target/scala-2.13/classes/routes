@@ -1,0 +1,14 @@
+
+# ROUTES
+
+GET     /healthcheck                                controllers.MessagesController.check()
+
+GET     /messages/:id                               controllers.MessagesController.findOne(id: String)
+
+POST    /messages                                   controllers.MessagesController.create()
+
+DELETE  /messages/:id                               controllers.MessagesController.delete(id: String)
+
+# GET     /messages                                   controllers.MessagesController.fetch(tag:Option[String], page:String ?= "2", count:String ?= "10")
+
+GET     /messages                                   controllers.MessagesController.findAll(tag:Option[String], page:String ?= "2", count:String ?= "10")

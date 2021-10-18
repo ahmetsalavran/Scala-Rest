@@ -1,0 +1,35 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(;Test/compile; collectAnalyses, None, Some(CommandSource(network-1)))[0m
+[0m[[0m[0mdebug[0m] [0m[0munmatched Processing event for requestId None: None[0m
+[0m[[0m[0mdebug[0m] [0m[0munmatched Done event for requestId None: None[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(Test/compile, None, Some(CommandSource(network-1)))[0m
+[0m[[0m[0mdebug[0m] [0m[0munmatched Processing event for requestId None: None[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / compile[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@31d7e70, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskStart, {"taskId":{"id":"204","parents":[]},"eventTime":1634557729820,"message":"Compiling root","dataKind":"compile-task","data":{"target":{"uri":"file:/C:/Users/Asus/Desktop/scalas/deneme/deneme/#root/Compile"}}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:deneme[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 2 Scala sources to C:\Users\Asus\Desktop\scalas\deneme\deneme\target\scala-2.13\classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"compiling 2 Scala sources to C:\\Users\\Asus\\Desktop\\scalas\\deneme\\deneme\\target\\scala-2.13\\classes ..."})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///C:/Users/Asus/Desktop/scalas/deneme/deneme/app/repositories/MessagesRepository.scala"},"buildTarget":{"uri":"file:/C:/Users/Asus/Desktop/scalas/deneme/deneme/#root/Compile"},"diagnostics":[{"range":{"start":{"line":2,"character":0},"end":{"line":2,"character":7}},"severity":1,"source":"sbt","message":"object Messages is not a member of package models"}],"reset":false})[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\repositories\MessagesRepository.scala:3:8: object Messages is not a member of package models[0m
+[0m[[0m[31merror[0m] [0m[0mimport models.Messages[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":1,"message":"C:\\Users\\Asus\\Desktop\\scalas\\deneme\\deneme\\app\\repositories\\MessagesRepository.scala:3:8: object Messages is not a member of package models"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":1,"message":"import models.Messages"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":1,"message":"       ^"})[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":1,"message":"one error found"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///C:/Users/Asus/Desktop/scalas/deneme/deneme/app/controllers/MessagesController.scala"},"buildTarget":{"uri":"file:/C:/Users/Asus/Desktop/scalas/deneme/deneme/#root/Compile"},"diagnostics":[],"reset":true})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///C:/Users/Asus/Desktop/scalas/deneme/deneme/app/models/Todb.scala"},"buildTarget":{"uri":"file:/C:/Users/Asus/Desktop/scalas/deneme/deneme/#root/Compile"},"diagnostics":[],"reset":true})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///C:/Users/Asus/Desktop/scalas/deneme/deneme/app/repositories/MessagesRepository.scala"},"buildTarget":{"uri":"file:/C:/Users/Asus/Desktop/scalas/deneme/deneme/#root/Compile"},"diagnostics":[{"range":{"start":{"line":2,"character":0},"end":{"line":2,"character":7}},"severity":1,"source":"sbt","message":"object Messages is not a member of package models"}],"reset":true})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///C:/Users/Asus/Desktop/scalas/deneme/deneme/target/scala-2.13/routes/main/router/RoutesPrefix.scala"},"buildTarget":{"uri":"file:/C:/Users/Asus/Desktop/scalas/deneme/deneme/#root/Compile"},"diagnostics":[],"reset":true})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///C:/Users/Asus/Desktop/scalas/deneme/deneme/target/scala-2.13/routes/main/controllers/ReverseRoutes.scala"},"buildTarget":{"uri":"file:/C:/Users/Asus/Desktop/scalas/deneme/deneme/#root/Compile"},"diagnostics":[],"reset":true})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///C:/Users/Asus/Desktop/scalas/deneme/deneme/target/scala-2.13/routes/main/controllers/routes.java"},"buildTarget":{"uri":"file:/C:/Users/Asus/Desktop/scalas/deneme/deneme/#root/Compile"},"diagnostics":[],"reset":true})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///C:/Users/Asus/Desktop/scalas/deneme/deneme/target/scala-2.13/routes/main/router/Routes.scala"},"buildTarget":{"uri":"file:/C:/Users/Asus/Desktop/scalas/deneme/deneme/#root/Compile"},"diagnostics":[],"reset":true})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///C:/Users/Asus/Desktop/scalas/deneme/deneme/target/scala-2.13/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala"},"buildTarget":{"uri":"file:/C:/Users/Asus/Desktop/scalas/deneme/deneme/#root/Compile"},"diagnostics":[],"reset":true})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskFinish, {"taskId":{"id":"204","parents":[]},"eventTime":1634557730219,"message":"Compiled root","status":2,"dataKind":"compile-report","data":{"target":{"uri":"file:/C:/Users/Asus/Desktop/scalas/deneme/deneme/#root/Compile"},"errors":1,"warnings":0,"time":399}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":1,"message":"(Compile / \u001b[31mcompileIncremental\u001b[0m) Compilation failed"})[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 1 s, completed 18.Eki.2021 14:48:50[0m
+[0m[[0m[0mdebug[0m] [0m[0munmatched Done event for requestId None: None[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

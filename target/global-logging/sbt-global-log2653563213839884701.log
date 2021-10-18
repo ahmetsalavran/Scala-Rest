@@ -1,0 +1,41 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(;Test/compile; collectAnalyses, None, Some(CommandSource(network-1)))[0m
+[0m[[0m[0mdebug[0m] [0m[0munmatched Processing event for requestId None: None[0m
+[0m[[0m[0mdebug[0m] [0m[0munmatched Done event for requestId None: None[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(Test/compile, None, Some(CommandSource(network-1)))[0m
+[0m[[0m[0mdebug[0m] [0m[0munmatched Processing event for requestId None: None[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / compile[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskStart, {"taskId":{"id":"35","parents":[]},"eventTime":1634218427205,"message":"Compiling root","dataKind":"compile-task","data":{"target":{"uri":"file:/C:/Users/Asus/Desktop/vole/deneme/deneme/#root/Compile"}}})[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\Asus\Desktop\vole\deneme\deneme\target\scala-2.13\classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"compiling 1 Scala source to C:\\Users\\Asus\\Desktop\\vole\\deneme\\deneme\\target\\scala-2.13\\classes ..."})[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:deneme[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///C:/Users/Asus/Desktop/vole/deneme/deneme/app/controllers/MessagesController.scala"},"buildTarget":{"uri":"file:/C:/Users/Asus/Desktop/vole/deneme/deneme/#root/Compile"},"diagnostics":[{"range":{"start":{"line":23,"character":13},"end":{"line":23,"character":14}},"severity":1,"source":"sbt","message":"type mismatch;\n found   : Unit\n required: scala.concurrent.Future[play.api.mvc.Result]"}],"reset":false})[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Asus\Desktop\vole\deneme\deneme\app\controllers\MessagesController.scala:24:14: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : Unit[0m
+[0m[[0m[31merror[0m] [0m[0m required: scala.concurrent.Future[play.api.mvc.Result][0m
+[0m[[0m[31merror[0m] [0m[0m      println(request.body.validate[Messages].fold([0m
+[0m[[0m[31merror[0m] [0m[0m             ^[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":1,"message":"C:\\Users\\Asus\\Desktop\\vole\\deneme\\deneme\\app\\controllers\\MessagesController.scala:24:14: type mismatch;\n found   : Unit\n required: scala.concurrent.Future[play.api.mvc.Result]"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":1,"message":"      println(request.body.validate[Messages].fold("})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":1,"message":"             ^"})[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":1,"message":"one error found"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///C:/Users/Asus/Desktop/vole/deneme/deneme/app/controllers/MessagesController.scala"},"buildTarget":{"uri":"file:/C:/Users/Asus/Desktop/vole/deneme/deneme/#root/Compile"},"diagnostics":[{"range":{"start":{"line":23,"character":13},"end":{"line":23,"character":14}},"severity":1,"source":"sbt","message":"type mismatch;\n found   : Unit\n required: scala.concurrent.Future[play.api.mvc.Result]"}],"reset":true})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///C:/Users/Asus/Desktop/vole/deneme/deneme/app/models/Messages.scala"},"buildTarget":{"uri":"file:/C:/Users/Asus/Desktop/vole/deneme/deneme/#root/Compile"},"diagnostics":[],"reset":true})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///C:/Users/Asus/Desktop/vole/deneme/deneme/app/repositories/MessagesRepository.scala"},"buildTarget":{"uri":"file:/C:/Users/Asus/Desktop/vole/deneme/deneme/#root/Compile"},"diagnostics":[],"reset":true})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///C:/Users/Asus/Desktop/vole/deneme/deneme/target/scala-2.13/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala"},"buildTarget":{"uri":"file:/C:/Users/Asus/Desktop/vole/deneme/deneme/#root/Compile"},"diagnostics":[],"reset":true})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///C:/Users/Asus/Desktop/vole/deneme/deneme/target/scala-2.13/routes/main/controllers/routes.java"},"buildTarget":{"uri":"file:/C:/Users/Asus/Desktop/vole/deneme/deneme/#root/Compile"},"diagnostics":[],"reset":true})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///C:/Users/Asus/Desktop/vole/deneme/deneme/target/scala-2.13/routes/main/router/Routes.scala"},"buildTarget":{"uri":"file:/C:/Users/Asus/Desktop/vole/deneme/deneme/#root/Compile"},"diagnostics":[],"reset":true})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///C:/Users/Asus/Desktop/vole/deneme/deneme/target/scala-2.13/routes/main/controllers/ReverseRoutes.scala"},"buildTarget":{"uri":"file:/C:/Users/Asus/Desktop/vole/deneme/deneme/#root/Compile"},"diagnostics":[],"reset":true})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///C:/Users/Asus/Desktop/vole/deneme/deneme/target/scala-2.13/routes/main/router/RoutesPrefix.scala"},"buildTarget":{"uri":"file:/C:/Users/Asus/Desktop/vole/deneme/deneme/#root/Compile"},"diagnostics":[],"reset":true})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskFinish, {"taskId":{"id":"35","parents":[]},"eventTime":1634218427510,"message":"Compiled root","status":2,"dataKind":"compile-report","data":{"target":{"uri":"file:/C:/Users/Asus/Desktop/vole/deneme/deneme/#root/Compile"},"errors":1,"warnings":0,"time":305}})[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":1,"message":"(Compile / \u001b[31mcompileIncremental\u001b[0m) Compilation failed"})[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 1 s, completed 14.Eki.2021 16:33:47[0m
+[0m[[0m[0mdebug[0m] [0m[0munmatched Done event for requestId None: None[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mlsp-definition json request: {"textDocument":{"uri":"file:///c%3A/Users/Asus/Desktop/vole/deneme/deneme/app/controllers/MessagesController.scala"},"position":{"line":23,"character":14}}[0m
+[0m[[0m[0mdebug[0m] [0m[0mlsp-definition found line:       println(request.body.validate[Messages].fold([0m
+[0m[[0m[0mdebug[0m] [0m[0msymbol request[0m
+[0m[[0m[0mdebug[0m] [0m[0mlsp-definition potentials: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mlsp-definition locations Vector()[0m

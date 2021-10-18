@@ -1,0 +1,1364 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(early(addDefaultCommands), None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(addDefaultCommands, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(early(initialize), None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(initialize, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(boot, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(writeSbtVersion, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(reload, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(sbtStashOnFailure, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(onFailure loadFailed, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(loadp, None, None)[0m
+[0m[[0m[0minfo[0m] [0m[0mwelcome to sbt 1.5.2 (Oracle Corporation Java 1.8.0_261)[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.loadUnit: plugins took 93.8877ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.loadUnit: defsScala took 0.4126ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Scanning directory C:\Users\Asus\.sbt\1.0\plugins[0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Found non-root projects [0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Done in C:\Users\Asus\.sbt\1.0\plugins, returning: ()[0m
+[0m[[0m[0mdebug[0m] [0m[0mdeducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))[0m
+[0m[[0m[0mdebug[0m] [0m[0m  :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)[0m
+[0m[[0m[0mdebug[0m] [0m[0mPlugins.deducer#function took 17.4385 ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m          Load.resolveProject(global-plugins) took 53.6552ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m        Load.loadTransitive: finalizeProject(Project(id global-plugins, base: C:\Users\Asus\.sbt\1.0\plugins, plugins: List(<none>))) took 99.4403ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Done in C:\Users\Asus\.sbt\1.0\plugins, returning: (global-plugins)[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.loadUnit: loadedProjectsRaw took 121.9348ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.loadUnit: cleanEvalClasses took 0.4594ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Load.loadUnit(file:/C:/Users/Asus/.sbt/1.0/plugins/, ...) took 225.3614ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Load.apply: load took 392.9432ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Load.apply: resolveProjects took 8.0954ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Load.apply: finalTransforms took 67.5287ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Load.apply: config.delegates took 9.4379ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Load.apply: Def.make(settings)... took 394.789ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Load.apply: structureIndex took 98.2374ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Load.apply: mkStreams took 1.8021ms[0m
+[0m[[0m[0minfo[0m] [0m[0mloading global plugins from C:\Users\Asus\.sbt\1.0\plugins[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mLoad.defaultLoad until apply took 3036.7001ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m                      Load.loadUnit: plugins took 23.2559ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m                      Load.loadUnit: defsScala took 0.0055ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Scanning directory C:\Users\Asus\Desktop\scalas\deneme\deneme\project\project\project[0m
+[0m[[0m[0mdebug[0m] [0m[0m                        Load.loadUnit: mkEval took 8.0264ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Found non-root projects [0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Done in C:\Users\Asus\Desktop\scalas\deneme\deneme\project\project\project, returning: ()[0m
+[0m[[0m[0mdebug[0m] [0m[0mdeducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))[0m
+[0m[[0m[0mdebug[0m] [0m[0m  :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)[0m
+[0m[[0m[0mdebug[0m] [0m[0mPlugins.deducer#function took 2.5739 ms[0m
+[0m[[0m[0minfo[0m] [0m[0mloading settings for project deneme-build-build-build from metals.sbt ...[0m
+[0m[[0m[0mdebug[0m] [0m[0m                          Load.resolveProject(deneme-build-build-build) took 5.8894ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m                        Load.loadTransitive: finalizeProject(Project(id deneme-build-build-build, base: C:\Users\Asus\Desktop\scalas\deneme\deneme\project\project\project, plugins: List(<none>))) took 9.2297ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Done in C:\Users\Asus\Desktop\scalas\deneme\deneme\project\project\project, returning: (deneme-build-build-build)[0m
+[0m[[0m[0mdebug[0m] [0m[0m                      Load.loadUnit: loadedProjectsRaw took 175.8287ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m                      Load.loadUnit: cleanEvalClasses took 6.0154ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m                    Load.loadUnit(file:/C:/Users/Asus/Desktop/scalas/deneme/deneme/project/project/project/, ...) took 206.1336ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m                  Load.apply: load took 207.3363ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m                  Load.apply: resolveProjects took 0.1233ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m                  Load.apply: finalTransforms took 9.8088ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m                  Load.apply: config.delegates took 0.5128ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m                  Load.apply: Def.make(settings)... took 94.3706ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m                  Load.apply: structureIndex took 27.9718ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m                  Load.apply: mkStreams took 0.0023ms[0m
+[0m[[0m[0minfo[0m] [0m[0mloading project definition from C:\Users\Asus\Desktop\scalas\deneme\deneme\project\project\project[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0m                Load.loadUnit: plugins took 573.0357ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m                Load.loadUnit: defsScala took 0.0024ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Scanning directory C:\Users\Asus\Desktop\scalas\deneme\deneme\project\project[0m
+[0m[[0m[0mdebug[0m] [0m[0m                  Load.loadUnit: mkEval took 0.2716ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Found non-root projects [0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Done in C:\Users\Asus\Desktop\scalas\deneme\deneme\project\project, returning: ()[0m
+[0m[[0m[0mdebug[0m] [0m[0mdeducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(bloop.integrations.sbt.BloopPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(bloop.integrations.sbt.BloopPlugin))))[0m
+[0m[[0m[0mdebug[0m] [0m[0m  :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,bloop.integrations.sbt.BloopPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)[0m
+[0m[[0m[0mdebug[0m] [0m[0mPlugins.deducer#function took 2.1626 ms[0m
+[0m[[0m[0minfo[0m] [0m[0mloading settings for project deneme-build-build from metals.sbt ...[0m
+[0m[[0m[0mdebug[0m] [0m[0m                    Load.resolveProject(deneme-build-build) took 33.6954ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m                  Load.loadTransitive: finalizeProject(Project(id deneme-build-build, base: C:\Users\Asus\Desktop\scalas\deneme\deneme\project\project, plugins: List(<none>))) took 36.4704ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Done in C:\Users\Asus\Desktop\scalas\deneme\deneme\project\project, returning: (deneme-build-build)[0m
+[0m[[0m[0mdebug[0m] [0m[0m                Load.loadUnit: loadedProjectsRaw took 50.2821ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m                Load.loadUnit: cleanEvalClasses took 1.1495ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m              Load.loadUnit(file:/C:/Users/Asus/Desktop/scalas/deneme/deneme/project/project/, ...) took 625.3439ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m            Load.apply: load took 626.8487ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m            Load.apply: resolveProjects took 0.2017ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m            Load.apply: finalTransforms took 17.5172ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m            Load.apply: config.delegates took 0.4479ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m            Load.apply: Def.make(settings)... took 107.6496ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m            Load.apply: structureIndex took 26.6682ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m            Load.apply: mkStreams took 0.0022ms[0m
+[0m[[0m[0minfo[0m] [0m[0mloading project definition from C:\Users\Asus\Desktop\scalas\deneme\deneme\project\project[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: bloopInstall[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@3a45afd4, check cycles: false, forcegc: true[0m
+[0m[[0m[32msuccess[0m] [0m[0mGenerated .bloop\deneme-build-build.json[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 1 s, completed 17.Eki.2021 10:33:11[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@46b5f061, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0m          Load.loadUnit: plugins took 1794.5726ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m          Load.loadUnit: defsScala took 0.0038ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Scanning directory C:\Users\Asus\Desktop\scalas\deneme\deneme\project[0m
+[0m[[0m[0mdebug[0m] [0m[0m            Load.loadUnit: mkEval took 0.2868ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Found non-root projects [0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Done in C:\Users\Asus\Desktop\scalas\deneme\deneme\project, returning: ()[0m
+[0m[[0m[0mdebug[0m] [0m[0mdeducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(bloop.integrations.sbt.BloopPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(bloop.integrations.sbt.BloopPlugin))))[0m
+[0m[[0m[0mdebug[0m] [0m[0m  :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,bloop.integrations.sbt.BloopPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)[0m
+[0m[[0m[0mdebug[0m] [0m[0mPlugins.deducer#function took 2.418 ms[0m
+[0m[[0m[0minfo[0m] [0m[0mloading settings for project deneme-build from metals.sbt,plugins.sbt ...[0m
+[0m[[0m[0mdebug[0m] [0m[0m              Load.resolveProject(deneme-build) took 39.9125ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m            Load.loadTransitive: finalizeProject(Project(id deneme-build, base: C:\Users\Asus\Desktop\scalas\deneme\deneme\project, plugins: List(<none>))) took 43.1133ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Done in C:\Users\Asus\Desktop\scalas\deneme\deneme\project, returning: (deneme-build)[0m
+[0m[[0m[0mdebug[0m] [0m[0m          Load.loadUnit: loadedProjectsRaw took 82.2135ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m          Load.loadUnit: cleanEvalClasses took 2.9706ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m        Load.loadUnit(file:/C:/Users/Asus/Desktop/scalas/deneme/deneme/project/, ...) took 1880.8618ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.apply: load took 1882.2048ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.apply: resolveProjects took 0.0905ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.apply: finalTransforms took 11.375ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.apply: config.delegates took 0.2922ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.apply: Def.make(settings)... took 56.3121ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.apply: structureIndex took 18.2963ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.apply: mkStreams took 0.0023ms[0m
+[0m[[0m[0minfo[0m] [0m[0mloading project definition from C:\Users\Asus\Desktop\scalas\deneme\deneme\project[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: bloopInstall[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@432a6a69, check cycles: false, forcegc: true[0m
+[0m[[0m[32msuccess[0m] [0m[0mGenerated .bloop\deneme-build.json[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 2 s, completed 17.Eki.2021 10:33:13[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@4af7ac25, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Load.loadUnit: plugins took 4055.2163ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Load.loadUnit: defsScala took 0.0025ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Scanning directory C:\Users\Asus\Desktop\scalas\deneme\deneme[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.loadUnit: mkEval took 0.2403ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Found root project root w/ remaining [0m
+[0m[[0m[0mdebug[0m] [0m[0mdeducing auto plugins based on known facts Set(Atom(play.sbt.PlayScala), Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(bloop.integrations.sbt.BloopPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(play.sbt.Play),Set(Atom(play.sbt.routes.RoutesCompiler)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(play.sbt.Play),Set(Atom(com.typesafe.sbt.jse.SbtJsTask)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(play.sbt.Play),Set(Atom(com.typesafe.sbt.packager.archetypes.JavaServerAppPackaging)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(play.sbt.Play),Set(Atom(play.twirl.sbt.SbtTwirl)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(play.sbt.PlayAkkaHttp2Support),Set(Atom(play.sbt.PlayAkkaHttpServer)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(play.sbt.PlayAkkaHttp2Support),Set(Atom(com.lightbend.sbt.javaagent.JavaAgent)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(play.sbt.PlayAkkaHttpServer),Set(Atom(play.sbt.PlayService)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(play.sbt.PlayFilters),Set(Atom(play.sbt.PlayWeb)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(play.sbt.PlayJava),Set(Atom(play.sbt.PlayWeb)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(play.sbt.PlayLayoutPlugin),Set(Atom(play.sbt.PlayWeb)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(play.sbt.PlayLogback),Set(Atom(play.sbt.PlayService)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(play.sbt.PlayMinimalJava),Set(Atom(play.sbt.PlayWeb)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(play.sbt.PlayNettyServer),Set(Atom(play.sbt.PlayService)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(play.sbt.PlayScala),Set(Atom(play.sbt.PlayWeb)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(play.sbt.PlayService),Set(Atom(com.typesafe.sbt.packager.archetypes.JavaServerAppPackaging)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(play.sbt.PlayWeb),Set(Atom(play.sbt.routes.RoutesCompiler)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(play.sbt.PlayWeb),Set(Atom(com.typesafe.sbt.jse.SbtJsTask)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(play.sbt.PlayWeb),Set(Atom(play.sbt.PlayService)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(play.sbt.PlayWeb),Set(Atom(play.twirl.sbt.SbtTwirl)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(play.sbt.routes.RoutesCompiler),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(play.sbt.test.MediatorWorkaroundPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(giter8.ScaffoldPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(play.twirl.sbt.SbtTwirl),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.SbtNativePackager),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging),Set(Atom(com.typesafe.sbt.packager.windows.WindowsPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging),Set(Atom(com.typesafe.sbt.packager.docker.DockerPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging),Set(Atom(com.typesafe.sbt.packager.debian.DebianPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging),Set(Atom(com.typesafe.sbt.packager.rpm.RpmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.archetypes.JavaServerAppPackaging),Set(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.archetypes.jar.ClasspathJarPlugin),Set(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.archetypes.jar.LauncherJarPlugin),Set(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.archetypes.jlink.JlinkPlugin),Set(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.archetypes.scripts.AshScriptPlugin),Set(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.archetypes.scripts.AshScriptPlugin),Set(Atom(com.typesafe.sbt.packager.archetypes.scripts.BashStartScriptPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.archetypes.scripts.BashStartScriptPlugin),Set(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.archetypes.scripts.BatStartScriptPlugin),Set(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.archetypes.systemloader.SystemVPlugin),Set(Atom(com.typesafe.sbt.packager.archetypes.systemloader.SystemloaderPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.archetypes.systemloader.SystemdPlugin),Set(Atom(com.typesafe.sbt.packager.archetypes.systemloader.SystemloaderPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.archetypes.systemloader.SystemloaderPlugin),Set(Atom(com.typesafe.sbt.packager.debian.DebianPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.archetypes.systemloader.SystemloaderPlugin),Set(Atom(com.typesafe.sbt.packager.rpm.RpmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.archetypes.systemloader.UpstartPlugin),Set(Atom(com.typesafe.sbt.packager.archetypes.systemloader.SystemloaderPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.debian.DebianDeployPlugin),Set(Atom(com.typesafe.sbt.packager.debian.DebianPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.debian.DebianPlugin),Set(Atom(com.typesafe.sbt.packager.linux.LinuxPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.debian.JDebPackaging),Set(Atom(com.typesafe.sbt.packager.debian.DebianPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.docker.DockerPlugin),Set(Atom(com.typesafe.sbt.packager.universal.UniversalPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.docker.DockerSpotifyClientPlugin),Set(Atom(com.typesafe.sbt.packager.docker.DockerPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.graalvmnativeimage.GraalVMNativeImagePlugin),Set(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.jdkpackager.JDKPackagerDeployPlugin),Set(Atom(com.typesafe.sbt.packager.jdkpackager.JDKPackagerPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.jdkpackager.JDKPackagerPlugin),Set(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.jdkpackager.JDKPackagerPlugin),Set(Atom(com.typesafe.sbt.packager.archetypes.jar.LauncherJarPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.linux.LinuxPlugin),Set(Atom(com.typesafe.sbt.packager.universal.UniversalPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.rpm.RpmDeployPlugin),Set(Atom(com.typesafe.sbt.packager.rpm.RpmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.rpm.RpmPlugin),Set(Atom(com.typesafe.sbt.packager.linux.LinuxPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.universal.UniversalDeployPlugin),Set(Atom(com.typesafe.sbt.packager.universal.UniversalPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.universal.UniversalPlugin),Set(Atom(com.typesafe.sbt.SbtNativePackager)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.windows.WindowsDeployPlugin),Set(Atom(com.typesafe.sbt.packager.windows.WindowsPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.windows.WindowsPlugin),Set(Atom(com.typesafe.sbt.packager.universal.UniversalPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.lightbend.sbt.javaagent.JavaAgent),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.lightbend.sbt.javaagent.JavaAgentPackaging),Set(Atom(com.lightbend.sbt.javaagent.JavaAgent)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.lightbend.sbt.javaagent.JavaAgentPackaging),Set(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.web.SbtWeb),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.jse.SbtJsEngine),Set(Atom(com.typesafe.sbt.web.SbtWeb)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.jse.SbtJsTask),Set(Atom(com.typesafe.sbt.jse.SbtJsEngine)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(bloop.integrations.sbt.BloopPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(play.sbt.PlayService),Set(Atom(play.sbt.PlayAkkaHttpServer)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(play.sbt.PlayWeb),Set(Atom(play.sbt.PlayFilters)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(play.sbt.PlayWeb),Set(Atom(play.sbt.PlayLayoutPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(play.sbt.PlayService),Set(Atom(play.sbt.PlayLogback)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(giter8.ScaffoldPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging),Set(Atom(com.typesafe.sbt.packager.archetypes.scripts.BashStartScriptPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging),Set(Atom(com.typesafe.sbt.packager.archetypes.scripts.BatStartScriptPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(And(Set(Atom(com.lightbend.sbt.javaagent.JavaAgent), Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging))),Set(Atom(com.lightbend.sbt.javaagent.JavaAgentPackaging)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.web.SbtWeb),Set(Atom(com.typesafe.sbt.jse.SbtJsEngine)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.jse.SbtJsEngine),Set(Atom(com.typesafe.sbt.jse.SbtJsTask))))[0m
+[0m[[0m[0mdebug[0m] [0m[0m  :: deduced result: Matched(sbt.plugins.CorePlugin,play.sbt.PlayScala,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,play.sbt.PlayWeb,play.twirl.sbt.SbtTwirl,sbt.plugins.JvmPlugin,play.sbt.PlayService,play.sbt.PlayFilters,play.sbt.PlayLayoutPlugin,play.sbt.routes.RoutesCompiler,com.typesafe.sbt.jse.SbtJsTask,com.typesafe.sbt.packager.archetypes.JavaServerAppPackaging,bloop.integrations.sbt.BloopPlugin,sbt.plugins.SemanticdbPlugin,sbt.plugins.JUnitXmlReportPlugin,play.sbt.PlayLogback,giter8.ScaffoldPlugin,sbt.plugins.MiniDependencyTreePlugin,com.typesafe.sbt.jse.SbtJsEngine,play.sbt.PlayAkkaHttpServer,com.typesafe.sbt.web.SbtWeb,com.typesafe.sbt.packager.archetypes.JavaAppPackaging,com.typesafe.sbt.packager.rpm.RpmPlugin,com.typesafe.sbt.packager.archetypes.scripts.BashStartScriptPlugin,com.typesafe.sbt.packager.windows.WindowsPlugin,com.typesafe.sbt.packager.archetypes.scripts.BatStartScriptPlugin,com.typesafe.sbt.packager.docker.DockerPlugin,com.typesafe.sbt.packager.debian.DebianPlugin,com.typesafe.sbt.packager.universal.UniversalPlugin,com.typesafe.sbt.packager.linux.LinuxPlugin,com.typesafe.sbt.SbtNativePackager)[0m
+[0m[[0m[0mdebug[0m] [0m[0mPlugins.deducer#function took 10.5783 ms[0m
+[0m[[0m[0minfo[0m] [0m[0mloading settings for project root from build.sbt ...[0m
+[0m[[0m[0mdebug[0m] [0m[0m        Load.resolveProject(root) took 184.3913ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.loadTransitive: finalizeProject(Project(id root, base: C:\Users\Asus\Desktop\scalas\deneme\deneme, plugins: List(play.sbt.PlayScala))) took 197.7778ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Done in C:\Users\Asus\Desktop\scalas\deneme\deneme, returning: (root)[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Load.loadUnit: loadedProjectsRaw took 345.6144ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Load.loadUnit: cleanEvalClasses took 3.8761ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Load.loadUnit(file:/C:/Users/Asus/Desktop/scalas/deneme/deneme/, ...) took 4405.2904ms[0m
+[0m[[0m[0mdebug[0m] [0m[0mLoad.apply: load took 4406.9061ms[0m
+[0m[[0m[0mdebug[0m] [0m[0mLoad.apply: resolveProjects took 0.1174ms[0m
+[0m[[0m[0mdebug[0m] [0m[0mLoad.apply: finalTransforms took 26.1492ms[0m
+[0m[[0m[0mdebug[0m] [0m[0mLoad.apply: config.delegates took 0.7169ms[0m
+[0m[[0m[0mdebug[0m] [0m[0mLoad.apply: Def.make(settings)... took 120.9586ms[0m
+[0m[[0m[0mdebug[0m] [0m[0mLoad.apply: structureIndex took 47.8882ms[0m
+[0m[[0m[0mdebug[0m] [0m[0mLoad.apply: mkStreams took 0.0041ms[0m
+[0m[[0m[0minfo[0m] [0m[0mset current project to deneme (in build file:/C:/Users/Asus/Desktop/scalas/deneme/deneme/)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(sbtPopOnFailure, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(resumeFromFailure, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(notifyUsersAboutShell, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(iflast shell, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(run, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / run[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@52a605c3, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@898edc8, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@2cd05a7c, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:deneme[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@a1d9bc8, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@8945b60, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\Asus\Desktop\scalas\deneme\deneme\target\scala-2.13\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\models\Todb.scala:16:27: not found: type JsonObject[0m
+[0m[[0m[31merror[0m] [0m[0m                tags:List[JsonObject][0m
+[0m[[0m[31merror[0m] [0m[0m                          ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\models\Todb.scala:27:24: not found: type JsonObject[0m
+[0m[[0m[31merror[0m] [0m[0m        doc.getAs[List[JsonObject]]("tags").get,[0m
+[0m[[0m[31merror[0m] [0m[0m                       ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@3d328af5, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@5e28b6b0, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@70e23a3d, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\Asus\Desktop\scalas\deneme\deneme\target\scala-2.13\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\models\Todb.scala:16:27: not found: type JsString[0m
+[0m[[0m[31merror[0m] [0m[0m                tags:List[JsString][0m
+[0m[[0m[31merror[0m] [0m[0m                          ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\models\Todb.scala:27:24: not found: type JsString[0m
+[0m[[0m[31merror[0m] [0m[0m        doc.getAs[List[JsString]]("tags").get,[0m
+[0m[[0m[31merror[0m] [0m[0m                       ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@c5834a4, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@2fad874d, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@5bcca3f1, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@3bf21fb6, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:deneme[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@12b6f0f9, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@e4a2b8, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\Asus\Desktop\scalas\deneme\deneme\target\scala-2.13\classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@4c9e4250, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:deneme[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@21479a2c, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@6184c1a8, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\Asus\Desktop\scalas\deneme\deneme\target\scala-2.13\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\models\Todb.scala:16:22: class Array takes type parameters[0m
+[0m[[0m[31merror[0m] [0m[0m                tags:Array[0m
+[0m[[0m[31merror[0m] [0m[0m                     ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\models\Todb.scala:27:19: class Array takes type parameters[0m
+[0m[[0m[31merror[0m] [0m[0m        doc.getAs[Array]("tags").get[0m
+[0m[[0m[31merror[0m] [0m[0m                  ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@21a1d773, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@2b98d43d, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@cdf2bb, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\Asus\Desktop\scalas\deneme\deneme\target\scala-2.13\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\models\Todb.scala:16:28: not found: type Json[0m
+[0m[[0m[31merror[0m] [0m[0m                tags:Array[Json][0m
+[0m[[0m[31merror[0m] [0m[0m                           ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\models\Todb.scala:27:25: not found: type Json[0m
+[0m[[0m[31merror[0m] [0m[0m        doc.getAs[Array[Json]]("tags").get[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@3ae177a, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@610b05b0, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@77fd09e7, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\Asus\Desktop\scalas\deneme\deneme\target\scala-2.13\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\models\Todb.scala:16:28: not found: type JsonObject[0m
+[0m[[0m[31merror[0m] [0m[0m                tags:Array[JsonObject][0m
+[0m[[0m[31merror[0m] [0m[0m                           ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\models\Todb.scala:27:25: not found: type JsonObject[0m
+[0m[[0m[31merror[0m] [0m[0m        doc.getAs[Array[JsonObject]]("tags").get[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@3c50edd3, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@333a4bce, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@4ab90b78, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\Asus\Desktop\scalas\deneme\deneme\target\scala-2.13\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\models\Todb.scala:16:27: not found: type JsValue[0m
+[0m[[0m[31merror[0m] [0m[0m                tags:List[JsValue][0m
+[0m[[0m[31merror[0m] [0m[0m                          ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\models\Todb.scala:27:24: not found: type JsValue[0m
+[0m[[0m[31merror[0m] [0m[0m        doc.getAs[List[JsValue]]("tags").get[0m
+[0m[[0m[31merror[0m] [0m[0m                       ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@71b7eca6, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@5aee71a0, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@78531107, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\Asus\Desktop\scalas\deneme\deneme\target\scala-2.13\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\models\Todb.scala:28:33: could not find implicit value for parameter reader: reactivemongo.bson.BSONReader[_ <: reactivemongo.bson.BSONValue, List[play.api.libs.json.JsValue]][0m
+[0m[[0m[31merror[0m] [0m[0m        doc.getAs[List[JsValue]]("tags").get[0m
+[0m[[0m[31merror[0m] [0m[0m                                ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@1e2ac581, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@2da3c882, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@474749cb, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\Asus\Desktop\scalas\deneme\deneme\target\scala-2.13\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\models\Todb.scala:28:24: not found: type Bson[0m
+[0m[[0m[31merror[0m] [0m[0m        doc.getAs[List[Bson]]("tags").get[0m
+[0m[[0m[31merror[0m] [0m[0m                       ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@2cc507a6, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@2bfffaff, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@2e0e1a5c, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\Asus\Desktop\scalas\deneme\deneme\target\scala-2.13\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\models\Todb.scala:28:24: not found: type BSONObject[0m
+[0m[[0m[31merror[0m] [0m[0m        doc.getAs[List[BSONObject]]("tags").get[0m
+[0m[[0m[31merror[0m] [0m[0m                       ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@4c69100d, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@18d1bed8, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@45020c21, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 3 Scala sources to C:\Users\Asus\Desktop\scalas\deneme\deneme\target\scala-2.13\classes ...[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\repositories\MessagesRepository.scala:27:11: method toDocumentWriter in trait LowPriorityPackage is deprecated (since 0.19.0): Use reactivemongo-bson-api or use reactivemongo-bson-compat: import reactivemongo.api.bson.compat._[0m
+[0m[[0m[33mwarn[0m] [0m[0m      .one(todb.copy()))[0m
+[0m[[0m[33mwarn[0m] [0m[0m          ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\repositories\MessagesRepository.scala:31:30: method toDocumentWriter in trait LowPriorityPackage is deprecated (since 0.19.0): Use reactivemongo-bson-api or use reactivemongo-bson-compat: import reactivemongo.api.bson.compat._[0m
+[0m[[0m[33mwarn[0m] [0m[0m    collection.flatMap(_.find(BSONDocument("_id" -> id), Option.empty[Todb]).one[Todb])[0m
+[0m[[0m[33mwarn[0m] [0m[0m                             ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\repositories\MessagesRepository.scala:31:81: method toDocumentReader in trait LowPriorityPackage is deprecated (since 0.19.0): Use reactivemongo-bson-api or use reactivemongo-bson-compat: import reactivemongo.api.bson.compat._[0m
+[0m[[0m[33mwarn[0m] [0m[0m    collection.flatMap(_.find(BSONDocument("_id" -> id), Option.empty[Todb]).one[Todb])[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                                ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\repositories\MessagesRepository.scala:36:21: method toDocumentWriter in trait LowPriorityPackage is deprecated (since 0.19.0): Use reactivemongo-bson-api or use reactivemongo-bson-compat: import reactivemongo.api.bson.compat._[0m
+[0m[[0m[33mwarn[0m] [0m[0m      _.delete().one(BSONDocument("_id" -> id), Some(1))[0m
+[0m[[0m[33mwarn[0m] [0m[0m                    ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mfour warnings found[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@6ba3e6fb, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:deneme[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@133addcd, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@51e5abc6, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\Asus\Desktop\scalas\deneme\deneme\target\scala-2.13\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\models\Todb.scala:17:28: Object does not take type parameters[0m
+[0m[[0m[31merror[0m] [0m[0m                tags:Array[Object[String]][0m
+[0m[[0m[31merror[0m] [0m[0m                           ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\models\Todb.scala:28:25: Object does not take type parameters[0m
+[0m[[0m[31merror[0m] [0m[0m        doc.getAs[Array[Object[String]]]("tags").get[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@117c2444, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@5e81f93, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@30d16eb0, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\Asus\Desktop\scalas\deneme\deneme\target\scala-2.13\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\models\Todb.scala:21:48: No instance of play.api.libs.json.Format is available for scala.Array[java.lang.Object] in the implicit scope (Hint: if declared in the same file, make sure it's declared before)[0m
+[0m[[0m[31merror[0m] [0m[0m  implicit val fmt : Format[Todb] = Json.format[Todb][0m
+[0m[[0m[31merror[0m] [0m[0m                                               ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\models\Todb.scala:28:33: could not find implicit value for parameter reader: reactivemongo.bson.BSONReader[_ <: reactivemongo.bson.BSONValue, Array[Object]][0m
+[0m[[0m[31merror[0m] [0m[0m        doc.getAs[Array[Object]]("tags").get[0m
+[0m[[0m[31merror[0m] [0m[0m                                ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\models\Todb.scala:39:16: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : (String, Array[Object])[0m
+[0m[[0m[31merror[0m] [0m[0m required: reactivemongo.bson.Producer[reactivemongo.bson.BSONElement][0m
+[0m[[0m[31merror[0m] [0m[0m        "tags" -> todb.tags[0m
+[0m[[0m[31merror[0m] [0m[0m               ^[0m
+[0m[[0m[31merror[0m] [0m[0mthree errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@57c1b918, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@4e828265, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@1c9914c6, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\Asus\Desktop\scalas\deneme\deneme\target\scala-2.13\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\models\Todb.scala:28:33: could not find implicit value for parameter reader: reactivemongo.bson.BSONReader[_ <: reactivemongo.bson.BSONValue, Array[Object]][0m
+[0m[[0m[31merror[0m] [0m[0m        doc.getAs[Array[Object]]("tags").get[0m
+[0m[[0m[31merror[0m] [0m[0m                                ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\models\Todb.scala:39:16: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : (String, Array[Object])[0m
+[0m[[0m[31merror[0m] [0m[0m required: reactivemongo.bson.Producer[reactivemongo.bson.BSONElement][0m
+[0m[[0m[31merror[0m] [0m[0m        "tags" -> todb.tags[0m
+[0m[[0m[31merror[0m] [0m[0m               ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@5938fbd8, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@42a1e1c, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@5869a6ac, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\Asus\Desktop\scalas\deneme\deneme\target\scala-2.13\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\models\Todb.scala:17:22: class Array takes type parameters[0m
+[0m[[0m[31merror[0m] [0m[0m                tags:Array[0m
+[0m[[0m[31merror[0m] [0m[0m                     ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\models\Todb.scala:28:19: class Array takes type parameters[0m
+[0m[[0m[31merror[0m] [0m[0m        doc.getAs[Array]("tags").get[0m
+[0m[[0m[31merror[0m] [0m[0m                  ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@247f1fb9, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@5f3e0e87, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@2fa616fd, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\Asus\Desktop\scalas\deneme\deneme\target\scala-2.13\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\models\Todb.scala:17:28: Object does not take type parameters[0m
+[0m[[0m[31merror[0m] [0m[0m                tags:Array[Object[String]][0m
+[0m[[0m[31merror[0m] [0m[0m                           ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\models\Todb.scala:28:25: Object does not take type parameters[0m
+[0m[[0m[31merror[0m] [0m[0m        doc.getAs[Array[Object[String]]]("tags").get[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@46191115, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@26c86945, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@275fabb8, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\Asus\Desktop\scalas\deneme\deneme\target\scala-2.13\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\models\Todb.scala:21:48: No instance of play.api.libs.json.Format is available for scala.Array[java.lang.Object] in the implicit scope (Hint: if declared in the same file, make sure it's declared before)[0m
+[0m[[0m[31merror[0m] [0m[0m  implicit val fmt : Format[Todb] = Json.format[Todb][0m
+[0m[[0m[31merror[0m] [0m[0m                                               ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\models\Todb.scala:28:33: could not find implicit value for parameter reader: reactivemongo.bson.BSONReader[_ <: reactivemongo.bson.BSONValue, Array[Object]][0m
+[0m[[0m[31merror[0m] [0m[0m        doc.getAs[Array[Object]]("tags").get[0m
+[0m[[0m[31merror[0m] [0m[0m                                ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\models\Todb.scala:39:16: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : (String, Array[Object])[0m
+[0m[[0m[31merror[0m] [0m[0m required: reactivemongo.bson.Producer[reactivemongo.bson.BSONElement][0m
+[0m[[0m[31merror[0m] [0m[0m        "tags" -> todb.tags[0m
+[0m[[0m[31merror[0m] [0m[0m               ^[0m
+[0m[[0m[31merror[0m] [0m[0mthree errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@7e056007, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@2fc87a99, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@b4b6ed5, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@65d99f73, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:deneme[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@21088a46, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@3dfb442e, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\Asus\Desktop\scalas\deneme\deneme\target\scala-2.13\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\models\Todb.scala:17:28: type List takes type parameters[0m
+[0m[[0m[31merror[0m] [0m[0m                tags:Array[List][0m
+[0m[[0m[31merror[0m] [0m[0m                           ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\models\Todb.scala:28:25: type List takes type parameters[0m
+[0m[[0m[31merror[0m] [0m[0m        doc.getAs[Array[List]]("tags").get[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@739e151f, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@101b02d9, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@19bc44c5, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 2 Scala sources to C:\Users\Asus\Desktop\scalas\deneme\deneme\target\scala-2.13\classes ...[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\repositories\MessagesRepository.scala:27:11: method toDocumentWriter in trait LowPriorityPackage is deprecated (since 0.19.0): Use reactivemongo-bson-api or use reactivemongo-bson-compat: import reactivemongo.api.bson.compat._[0m
+[0m[[0m[33mwarn[0m] [0m[0m      .one(todb.copy()))[0m
+[0m[[0m[33mwarn[0m] [0m[0m          ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\repositories\MessagesRepository.scala:31:30: method toDocumentWriter in trait LowPriorityPackage is deprecated (since 0.19.0): Use reactivemongo-bson-api or use reactivemongo-bson-compat: import reactivemongo.api.bson.compat._[0m
+[0m[[0m[33mwarn[0m] [0m[0m    collection.flatMap(_.find(BSONDocument("_id" -> id), Option.empty[Todb]).one[Todb])[0m
+[0m[[0m[33mwarn[0m] [0m[0m                             ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\repositories\MessagesRepository.scala:31:81: method toDocumentReader in trait LowPriorityPackage is deprecated (since 0.19.0): Use reactivemongo-bson-api or use reactivemongo-bson-compat: import reactivemongo.api.bson.compat._[0m
+[0m[[0m[33mwarn[0m] [0m[0m    collection.flatMap(_.find(BSONDocument("_id" -> id), Option.empty[Todb]).one[Todb])[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                                ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\repositories\MessagesRepository.scala:36:21: method toDocumentWriter in trait LowPriorityPackage is deprecated (since 0.19.0): Use reactivemongo-bson-api or use reactivemongo-bson-compat: import reactivemongo.api.bson.compat._[0m
+[0m[[0m[33mwarn[0m] [0m[0m      _.delete().one(BSONDocument("_id" -> id), Some(1))[0m
+[0m[[0m[33mwarn[0m] [0m[0m                    ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mfour warnings found[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 2 Scala sources to C:\Users\Asus\Desktop\scalas\deneme\deneme\target\scala-2.13\classes ...[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\repositories\MessagesRepository.scala:27:11: method toDocumentWriter in trait LowPriorityPackage is deprecated (since 0.19.0): Use reactivemongo-bson-api or use reactivemongo-bson-compat: import reactivemongo.api.bson.compat._[0m
+[0m[[0m[33mwarn[0m] [0m[0m      .one(todb.copy()))[0m
+[0m[[0m[33mwarn[0m] [0m[0m          ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\repositories\MessagesRepository.scala:31:30: method toDocumentWriter in trait LowPriorityPackage is deprecated (since 0.19.0): Use reactivemongo-bson-api or use reactivemongo-bson-compat: import reactivemongo.api.bson.compat._[0m
+[0m[[0m[33mwarn[0m] [0m[0m    collection.flatMap(_.find(BSONDocument("_id" -> id), Option.empty[Todb]).one[Todb])[0m
+[0m[[0m[33mwarn[0m] [0m[0m                             ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\repositories\MessagesRepository.scala:31:81: method toDocumentReader in trait LowPriorityPackage is deprecated (since 0.19.0): Use reactivemongo-bson-api or use reactivemongo-bson-compat: import reactivemongo.api.bson.compat._[0m
+[0m[[0m[33mwarn[0m] [0m[0m    collection.flatMap(_.find(BSONDocument("_id" -> id), Option.empty[Todb]).one[Todb])[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                                ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\repositories\MessagesRepository.scala:36:21: method toDocumentWriter in trait LowPriorityPackage is deprecated (since 0.19.0): Use reactivemongo-bson-api or use reactivemongo-bson-compat: import reactivemongo.api.bson.compat._[0m
+[0m[[0m[33mwarn[0m] [0m[0m      _.delete().one(BSONDocument("_id" -> id), Some(1))[0m
+[0m[[0m[33mwarn[0m] [0m[0m                    ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mfour warnings found[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@5169d9a9, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:deneme[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@387bd4b7, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@49438310, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 3 Scala sources to C:\Users\Asus\Desktop\scalas\deneme\deneme\target\scala-2.13\classes ...[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\repositories\MessagesRepository.scala:27:11: method toDocumentWriter in trait LowPriorityPackage is deprecated (since 0.19.0): Use reactivemongo-bson-api or use reactivemongo-bson-compat: import reactivemongo.api.bson.compat._[0m
+[0m[[0m[33mwarn[0m] [0m[0m      .one(todb.copy()))[0m
+[0m[[0m[33mwarn[0m] [0m[0m          ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\repositories\MessagesRepository.scala:31:30: method toDocumentWriter in trait LowPriorityPackage is deprecated (since 0.19.0): Use reactivemongo-bson-api or use reactivemongo-bson-compat: import reactivemongo.api.bson.compat._[0m
+[0m[[0m[33mwarn[0m] [0m[0m    collection.flatMap(_.find(BSONDocument("_id" -> id), Option.empty[Todb]).one[Todb])[0m
+[0m[[0m[33mwarn[0m] [0m[0m                             ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\repositories\MessagesRepository.scala:31:81: method toDocumentReader in trait LowPriorityPackage is deprecated (since 0.19.0): Use reactivemongo-bson-api or use reactivemongo-bson-compat: import reactivemongo.api.bson.compat._[0m
+[0m[[0m[33mwarn[0m] [0m[0m    collection.flatMap(_.find(BSONDocument("_id" -> id), Option.empty[Todb]).one[Todb])[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                                ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\repositories\MessagesRepository.scala:36:21: method toDocumentWriter in trait LowPriorityPackage is deprecated (since 0.19.0): Use reactivemongo-bson-api or use reactivemongo-bson-compat: import reactivemongo.api.bson.compat._[0m
+[0m[[0m[33mwarn[0m] [0m[0m      _.delete().one(BSONDocument("_id" -> id), Some(1))[0m
+[0m[[0m[33mwarn[0m] [0m[0m                    ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mfour warnings found[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@63a81d66, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:deneme[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@53c3083e, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@245f343a, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\Asus\Desktop\scalas\deneme\deneme\target\scala-2.13\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\models\Todb.scala:17:21: identifier expected but ':' found.[0m
+[0m[[0m[31merror[0m] [0m[0m                tags:Array[List[String]][0m
+[0m[[0m[31merror[0m] [0m[0m                    ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\models\Todb.scala:43:3: ')' expected but eof found.[0m
+[0m[[0m[31merror[0m] [0m[0m}[0m
+[0m[[0m[31merror[0m] [0m[0m ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@5016e0b1, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@1ebcd043, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@7b69a1, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\Asus\Desktop\scalas\deneme\deneme\target\scala-2.13\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m## Exception when compiling 9 sources to C:\Users\Asus\Desktop\scalas\deneme\deneme\target\scala-2.13\classes[0m
+[0m[[0m[31merror[0m] [0m[0mjava.nio.file.NoSuchFileException: C:\Users\Asus\Desktop\scalas\deneme\deneme\target\scala-2.13\classes.bak\sbt4198689314472309738.class[0m
+[0m[[0m[31merror[0m] [0m[0msun.nio.fs.WindowsException.translateToIOException(WindowsException.java:79)[0m
+[0m[[0m[31merror[0m] [0m[0msun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:97)[0m
+[0m[[0m[31merror[0m] [0m[0msun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:102)[0m
+[0m[[0m[31merror[0m] [0m[0msun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:230)[0m
+[0m[[0m[31merror[0m] [0m[0mjava.nio.file.Files.newByteChannel(Files.java:361)[0m
+[0m[[0m[31merror[0m] [0m[0mjava.nio.file.Files.createFile(Files.java:632)[0m
+[0m[[0m[31merror[0m] [0m[0mjava.nio.file.TempFileHelper.create(TempFileHelper.java:138)[0m
+[0m[[0m[31merror[0m] [0m[0mjava.nio.file.TempFileHelper.createTempFile(TempFileHelper.java:161)[0m
+[0m[[0m[31merror[0m] [0m[0mjava.nio.file.Files.createTempFile(Files.java:852)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.inc.ClassFileManager$TransactionalClassFileManager.move(ClassFileManager.scala:248)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.inc.ClassFileManager$TransactionalClassFileManager.$anonfun$deleteImpl$4(ClassFileManager.scala:211)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.collection.Iterator.foreach(Iterator.scala:943)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.collection.Iterator.foreach$(Iterator.scala:943)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.collection.AbstractIterator.foreach(Iterator.scala:1431)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.collection.IterableLike.foreach(IterableLike.scala:74)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.collection.IterableLike.foreach$(IterableLike.scala:73)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.collection.AbstractIterable.foreach(Iterable.scala:56)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.inc.ClassFileManager$TransactionalClassFileManager.deleteImpl(ClassFileManager.scala:211)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.inc.ClassFileManager$TransactionalClassFileManager.delete(ClassFileManager.scala:202)[0m
+[0m[[0m[31merror[0m] [0m[0mxsbti.compile.WrappedClassFileManager.delete(WrappedClassFileManager.java:45)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.inc.IncrementalCommon$.pruneClassFilesOfInvalidations(IncrementalCommon.scala:840)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.inc.IncrementalCommon$CycleState.next(IncrementalCommon.scala:93)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.inc.IncrementalCommon$$anon$1.next(IncrementalCommon.scala:56)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.inc.IncrementalCommon$$anon$1.next(IncrementalCommon.scala:52)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.inc.IncrementalCommon.cycle(IncrementalCommon.scala:261)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.inc.Incremental$.$anonfun$incrementalCompile$8(Incremental.scala:412)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.inc.Incremental$.withClassfileManager(Incremental.scala:499)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.inc.Incremental$.incrementalCompile(Incremental.scala:399)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.inc.Incremental$.apply(Incremental.scala:166)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.inc.IncrementalCompilerImpl.compileInternal(IncrementalCompilerImpl.scala:528)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.inc.IncrementalCompilerImpl.$anonfun$compileIncrementally$1(IncrementalCompilerImpl.scala:482)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.inc.IncrementalCompilerImpl.handleCompilationError(IncrementalCompilerImpl.scala:332)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.inc.IncrementalCompilerImpl.compileIncrementally(IncrementalCompilerImpl.scala:420)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.inc.IncrementalCompilerImpl.compile(IncrementalCompilerImpl.scala:137)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.Defaults$.compileIncrementalTaskImpl(Defaults.scala:2346)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.Defaults$.$anonfun$compileIncrementalTask$2(Defaults.scala:2303)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.io.Retry$.apply(Retry.scala:46)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.io.Retry$.apply(Retry.scala:28)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.io.Retry$.apply(Retry.scala:23)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.server.BspCompileTask$.compute(BspCompileTask.scala:31)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.Defaults$.$anonfun$compileIncrementalTask$1(Defaults.scala:2299)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.Function1.$anonfun$compose$1(Function1.scala:49)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.util.$tilde$greater.$anonfun$$u2219$1(TypeFunctions.scala:62)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.std.Transform$$anon$4.work(Transform.scala:68)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.Execute.$anonfun$submit$2(Execute.scala:282)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:23)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.Execute.work(Execute.scala:291)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.Execute.$anonfun$submit$1(Execute.scala:282)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:265)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.CompletionService$$anon$2.call(CompletionService.scala:64)[0m
+[0m[[0m[31merror[0m] [0m[0mjava.util.concurrent.FutureTask.run(FutureTask.java:266)[0m
+[0m[[0m[31merror[0m] [0m[0mjava.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)[0m
+[0m[[0m[31merror[0m] [0m[0mjava.util.concurrent.FutureTask.run(FutureTask.java:266)[0m
+[0m[[0m[31merror[0m] [0m[0mjava.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)[0m
+[0m[[0m[31merror[0m] [0m[0mjava.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)[0m
+[0m[[0m[31merror[0m] [0m[0mjava.lang.Thread.run(Thread.java:748)[0m
+[0m[[0m[31merror[0m] [0m[0m           [0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 2 Scala sources to C:\Users\Asus\Desktop\scalas\deneme\deneme\target\scala-2.13\classes ...[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\repositories\MessagesRepository.scala:27:11: method toDocumentWriter in trait LowPriorityPackage is deprecated (since 0.19.0): Use reactivemongo-bson-api or use reactivemongo-bson-compat: import reactivemongo.api.bson.compat._[0m
+[0m[[0m[33mwarn[0m] [0m[0m      .one(todb.copy()))[0m
+[0m[[0m[33mwarn[0m] [0m[0m          ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\repositories\MessagesRepository.scala:31:30: method toDocumentWriter in trait LowPriorityPackage is deprecated (since 0.19.0): Use reactivemongo-bson-api or use reactivemongo-bson-compat: import reactivemongo.api.bson.compat._[0m
+[0m[[0m[33mwarn[0m] [0m[0m    collection.flatMap(_.find(BSONDocument("_id" -> id), Option.empty[Todb]).one[Todb])[0m
+[0m[[0m[33mwarn[0m] [0m[0m                             ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\repositories\MessagesRepository.scala:31:81: method toDocumentReader in trait LowPriorityPackage is deprecated (since 0.19.0): Use reactivemongo-bson-api or use reactivemongo-bson-compat: import reactivemongo.api.bson.compat._[0m
+[0m[[0m[33mwarn[0m] [0m[0m    collection.flatMap(_.find(BSONDocument("_id" -> id), Option.empty[Todb]).one[Todb])[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                                ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\repositories\MessagesRepository.scala:36:21: method toDocumentWriter in trait LowPriorityPackage is deprecated (since 0.19.0): Use reactivemongo-bson-api or use reactivemongo-bson-compat: import reactivemongo.api.bson.compat._[0m
+[0m[[0m[33mwarn[0m] [0m[0m      _.delete().one(BSONDocument("_id" -> id), Some(1))[0m
+[0m[[0m[33mwarn[0m] [0m[0m                    ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mfour warnings found[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 2 Scala sources to C:\Users\Asus\Desktop\scalas\deneme\deneme\target\scala-2.13\classes ...[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\repositories\MessagesRepository.scala:27:11: method toDocumentWriter in trait LowPriorityPackage is deprecated (since 0.19.0): Use reactivemongo-bson-api or use reactivemongo-bson-compat: import reactivemongo.api.bson.compat._[0m
+[0m[[0m[33mwarn[0m] [0m[0m      .one(todb.copy()))[0m
+[0m[[0m[33mwarn[0m] [0m[0m          ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\repositories\MessagesRepository.scala:31:30: method toDocumentWriter in trait LowPriorityPackage is deprecated (since 0.19.0): Use reactivemongo-bson-api or use reactivemongo-bson-compat: import reactivemongo.api.bson.compat._[0m
+[0m[[0m[33mwarn[0m] [0m[0m    collection.flatMap(_.find(BSONDocument("_id" -> id), Option.empty[Todb]).one[Todb])[0m
+[0m[[0m[33mwarn[0m] [0m[0m                             ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\repositories\MessagesRepository.scala:31:81: method toDocumentReader in trait LowPriorityPackage is deprecated (since 0.19.0): Use reactivemongo-bson-api or use reactivemongo-bson-compat: import reactivemongo.api.bson.compat._[0m
+[0m[[0m[33mwarn[0m] [0m[0m    collection.flatMap(_.find(BSONDocument("_id" -> id), Option.empty[Todb]).one[Todb])[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                                ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\repositories\MessagesRepository.scala:36:21: method toDocumentWriter in trait LowPriorityPackage is deprecated (since 0.19.0): Use reactivemongo-bson-api or use reactivemongo-bson-compat: import reactivemongo.api.bson.compat._[0m
+[0m[[0m[33mwarn[0m] [0m[0m      _.delete().one(BSONDocument("_id" -> id), Some(1))[0m
+[0m[[0m[33mwarn[0m] [0m[0m                    ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mfour warnings found[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@50aeadf7, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:deneme[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@643afb31, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@2547c104, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\Asus\Desktop\scalas\deneme\deneme\target\scala-2.13\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\controllers\MessagesController.scala:52:40: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : Char[0m
+[0m[[0m[31merror[0m] [0m[0m required: String[0m
+[0m[[0m[31merror[0m] [0m[0m            "slug"  -> JsString(tags(0)(0))[0m
+[0m[[0m[31merror[0m] [0m[0m                                       ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\controllers\MessagesController.scala:58:40: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : Char[0m
+[0m[[0m[31merror[0m] [0m[0m required: String[0m
+[0m[[0m[31merror[0m] [0m[0m            "slug"  -> JsString(tags(1)(1))[0m
+[0m[[0m[31merror[0m] [0m[0m                                       ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@5b0ef316, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@30dabf83, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@6e573cbb, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\Asus\Desktop\scalas\deneme\deneme\target\scala-2.13\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\controllers\MessagesController.scala:51:38: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : Char[0m
+[0m[[0m[31merror[0m] [0m[0m required: String[0m
+[0m[[0m[31merror[0m] [0m[0m            "tug" -> JsString(tags(0)(0)),[0m
+[0m[[0m[31merror[0m] [0m[0m                                     ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\controllers\MessagesController.scala:57:38: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : Char[0m
+[0m[[0m[31merror[0m] [0m[0m required: String[0m
+[0m[[0m[31merror[0m] [0m[0m            "tug" -> JsString(tags(1)(1)),[0m
+[0m[[0m[31merror[0m] [0m[0m                                     ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@7876b12a, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@4facc8e3, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@51977de7, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\Asus\Desktop\scalas\deneme\deneme\target\scala-2.13\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\models\Todb.scala:28:27: could not find implicit value for parameter reader: reactivemongo.bson.BSONReader[_ <: reactivemongo.bson.BSONValue, play.api.libs.json.JsValue][0m
+[0m[[0m[31merror[0m] [0m[0m        doc.getAs[JsValue]("tags").get[0m
+[0m[[0m[31merror[0m] [0m[0m                          ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@3db4e8f9, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@4d4188f0, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@4bf5a40c, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\Asus\Desktop\scalas\deneme\deneme\target\scala-2.13\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\models\Todb.scala:17:21: identifier expected but ':' found.[0m
+[0m[[0m[31merror[0m] [0m[0m                tags:Array[List[String]][0m
+[0m[[0m[31merror[0m] [0m[0m                    ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\models\Todb.scala:43:3: ')' expected but eof found.[0m
+[0m[[0m[31merror[0m] [0m[0m}[0m
+[0m[[0m[31merror[0m] [0m[0m ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@6f74869a, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@232b351f, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@47a7eb0, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@714f4d72, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:deneme[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@449f1f75, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@64ea10e6, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\Asus\Desktop\scalas\deneme\deneme\target\scala-2.13\classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@7efe3860, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:deneme[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@6ed82f95, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@3ded98d0, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\Asus\Desktop\scalas\deneme\deneme\target\scala-2.13\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\models\Todb.scala:28:34: could not find implicit value for parameter reader: reactivemongo.bson.BSONReader[_ <: reactivemongo.bson.BSONValue, Option[String]][0m
+[0m[[0m[31merror[0m] [0m[0m        doc.getAs[Option[String]]("tags").get[0m
+[0m[[0m[31merror[0m] [0m[0m                                 ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@71095c27, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@423a67ca, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@70ccd75, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\Asus\Desktop\scalas\deneme\deneme\target\scala-2.13\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\models\Todb.scala:21:48: No instance of play.api.libs.json.Format is available for scala.collection.immutable.List[scala.Any] in the implicit scope (Hint: if declared in the same file, make sure it's declared before)[0m
+[0m[[0m[31merror[0m] [0m[0m  implicit val fmt : Format[Todb] = Json.format[Todb][0m
+[0m[[0m[31merror[0m] [0m[0m                                               ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\models\Todb.scala:28:29: could not find implicit value for parameter reader: reactivemongo.bson.BSONReader[_ <: reactivemongo.bson.BSONValue, List[Any]][0m
+[0m[[0m[31merror[0m] [0m[0m        doc.getAs[List[Any]]("tags").get[0m
+[0m[[0m[31merror[0m] [0m[0m                            ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\models\Todb.scala:39:16: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : (String, List[Any])[0m
+[0m[[0m[31merror[0m] [0m[0m required: reactivemongo.bson.Producer[reactivemongo.bson.BSONElement][0m
+[0m[[0m[31merror[0m] [0m[0m        "tags" -> todb.tags[0m
+[0m[[0m[31merror[0m] [0m[0m               ^[0m
+[0m[[0m[31merror[0m] [0m[0mthree errors found[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@3569ff11, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@25e113a0, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@772a6c2, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@33b653fe, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:deneme[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@5004a1e2, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@2a098733, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 2 Scala sources to C:\Users\Asus\Desktop\scalas\deneme\deneme\target\scala-2.13\classes ...[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\repositories\MessagesRepository.scala:24:11: method toDocumentWriter in trait LowPriorityPackage is deprecated (since 0.19.0): Use reactivemongo-bson-api or use reactivemongo-bson-compat: import reactivemongo.api.bson.compat._[0m
+[0m[[0m[33mwarn[0m] [0m[0m      .one(todb.copy()))[0m
+[0m[[0m[33mwarn[0m] [0m[0m          ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\repositories\MessagesRepository.scala:28:30: method toDocumentWriter in trait LowPriorityPackage is deprecated (since 0.19.0): Use reactivemongo-bson-api or use reactivemongo-bson-compat: import reactivemongo.api.bson.compat._[0m
+[0m[[0m[33mwarn[0m] [0m[0m    collection.flatMap(_.find(BSONDocument("_id" -> id), Option.empty[Todb]).one[Todb])[0m
+[0m[[0m[33mwarn[0m] [0m[0m                             ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\repositories\MessagesRepository.scala:28:81: method toDocumentReader in trait LowPriorityPackage is deprecated (since 0.19.0): Use reactivemongo-bson-api or use reactivemongo-bson-compat: import reactivemongo.api.bson.compat._[0m
+[0m[[0m[33mwarn[0m] [0m[0m    collection.flatMap(_.find(BSONDocument("_id" -> id), Option.empty[Todb]).one[Todb])[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                                ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\repositories\MessagesRepository.scala:33:21: method toDocumentWriter in trait LowPriorityPackage is deprecated (since 0.19.0): Use reactivemongo-bson-api or use reactivemongo-bson-compat: import reactivemongo.api.bson.compat._[0m
+[0m[[0m[33mwarn[0m] [0m[0m      _.delete().one(BSONDocument("_id" -> id), Some(1))[0m
+[0m[[0m[33mwarn[0m] [0m[0m                    ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mfour warnings found[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@19376b95, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:deneme[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@7967a878, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@59d14783, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\Asus\Desktop\scalas\deneme\deneme\target\scala-2.13\classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@34785f6c, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:deneme[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@7cfbeca3, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@39199230, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 3 Scala sources to C:\Users\Asus\Desktop\scalas\deneme\deneme\target\scala-2.13\classes ...[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\repositories\MessagesRepository.scala:24:11: method toDocumentWriter in trait LowPriorityPackage is deprecated (since 0.19.0): Use reactivemongo-bson-api or use reactivemongo-bson-compat: import reactivemongo.api.bson.compat._[0m
+[0m[[0m[33mwarn[0m] [0m[0m      .one(todb.copy()))[0m
+[0m[[0m[33mwarn[0m] [0m[0m          ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\repositories\MessagesRepository.scala:28:30: method toDocumentWriter in trait LowPriorityPackage is deprecated (since 0.19.0): Use reactivemongo-bson-api or use reactivemongo-bson-compat: import reactivemongo.api.bson.compat._[0m
+[0m[[0m[33mwarn[0m] [0m[0m    collection.flatMap(_.find(BSONDocument("_id" -> id), Option.empty[Todb]).one[Todb])[0m
+[0m[[0m[33mwarn[0m] [0m[0m                             ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\repositories\MessagesRepository.scala:28:81: method toDocumentReader in trait LowPriorityPackage is deprecated (since 0.19.0): Use reactivemongo-bson-api or use reactivemongo-bson-compat: import reactivemongo.api.bson.compat._[0m
+[0m[[0m[33mwarn[0m] [0m[0m    collection.flatMap(_.find(BSONDocument("_id" -> id), Option.empty[Todb]).one[Todb])[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                                ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\repositories\MessagesRepository.scala:33:21: method toDocumentWriter in trait LowPriorityPackage is deprecated (since 0.19.0): Use reactivemongo-bson-api or use reactivemongo-bson-compat: import reactivemongo.api.bson.compat._[0m
+[0m[[0m[33mwarn[0m] [0m[0m      _.delete().one(BSONDocument("_id" -> id), Some(1))[0m
+[0m[[0m[33mwarn[0m] [0m[0m                    ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mfour warnings found[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@325ee82, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:deneme[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@5107ab1f, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@4d3c7337, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\Asus\Desktop\scalas\deneme\deneme\target\scala-2.13\classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@2952fd9b, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:deneme[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@cd05587, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@747ab6bc, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\Asus\Desktop\scalas\deneme\deneme\target\scala-2.13\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\controllers\MessagesController.scala:46:27: not enough arguments for method apply: (value: String): play.api.libs.json.JsString in object JsString.[0m
+[0m[[0m[31merror[0m] [0m[0mUnspecified value parameter value.[0m
+[0m[[0m[31merror[0m] [0m[0m        "tags" -> JsString(),[0m
+[0m[[0m[31merror[0m] [0m[0m                          ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\controllers\MessagesController.scala:47:34: value toLowerCase is not a member of scala.collection.mutable.ListBuffer[String][0m
+[0m[[0m[31merror[0m] [0m[0m        "slugs" -> JsString(tags.toLowerCase())[0m
+[0m[[0m[31merror[0m] [0m[0m                                 ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@2223edd0, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@559b6978, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@11382866, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\Asus\Desktop\scalas\deneme\deneme\target\scala-2.13\classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@7be9d47c, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:deneme[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@114b3598, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@21753890, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\Asus\Desktop\scalas\deneme\deneme\target\scala-2.13\classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@43b949d4, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:deneme[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@6433a16a, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@4a6b2c24, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\Asus\Desktop\scalas\deneme\deneme\target\scala-2.13\classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@5f32674b, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:deneme[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@2199f1d2, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@5514cc63, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\Asus\Desktop\scalas\deneme\deneme\target\scala-2.13\classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@56d5e7f0, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:deneme[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@56c28fcd, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@48bbb0eb, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\Asus\Desktop\scalas\deneme\deneme\target\scala-2.13\classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@72822112, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:deneme[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@75a3e616, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@4a9d5a1b, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\Asus\Desktop\scalas\deneme\deneme\target\scala-2.13\classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@3cbb86c, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:deneme[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@259a8068, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@2d3e23dd, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\Asus\Desktop\scalas\deneme\deneme\target\scala-2.13\classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@73da282, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:deneme[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@318aa4a, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@375794d9, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\Asus\Desktop\scalas\deneme\deneme\target\scala-2.13\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\repositories\MessagesRepository.scala:27:26: type id is not a member of object models.Todb[0m
+[0m[[0m[31merror[0m] [0m[0m    def findOne(id: Todb.id): Future[Option[Todb]] = {[0m
+[0m[[0m[31merror[0m] [0m[0m                         ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@3b57152a, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@21d7ece6, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@634a2788, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 2 Scala sources to C:\Users\Asus\Desktop\scalas\deneme\deneme\target\scala-2.13\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\controllers\MessagesController.scala:60:10: constructor cannot be instantiated to expected type;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : scala.util.Success[T][0m
+[0m[[0m[31merror[0m] [0m[0m required: String[0m
+[0m[[0m[31merror[0m] [0m[0m    case Success(objectId) => messagesRepository.findOne(objectId).map {[0m
+[0m[[0m[31merror[0m] [0m[0m         ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\controllers\MessagesController.scala:63:10: constructor cannot be instantiated to expected type;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : scala.util.Failure[T][0m
+[0m[[0m[31merror[0m] [0m[0m required: String[0m
+[0m[[0m[31merror[0m] [0m[0m    case Failure(_) => Future.successful(BadRequest("There is no message in that id"))[0m
+[0m[[0m[31merror[0m] [0m[0m         ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@3bc9271a, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@7cd2a7c0, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@5be84430, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 2 Scala sources to C:\Users\Asus\Desktop\scalas\deneme\deneme\target\scala-2.13\classes ...[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\repositories\MessagesRepository.scala:24:11: method toDocumentWriter in trait LowPriorityPackage is deprecated (since 0.19.0): Use reactivemongo-bson-api or use reactivemongo-bson-compat: import reactivemongo.api.bson.compat._[0m
+[0m[[0m[33mwarn[0m] [0m[0m      .one(todb.copy()))[0m
+[0m[[0m[33mwarn[0m] [0m[0m          ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\repositories\MessagesRepository.scala:28:30: method toDocumentWriter in trait LowPriorityPackage is deprecated (since 0.19.0): Use reactivemongo-bson-api or use reactivemongo-bson-compat: import reactivemongo.api.bson.compat._[0m
+[0m[[0m[33mwarn[0m] [0m[0m    collection.flatMap(_.find(BSONDocument("id" -> id), Option.empty[Todb]).one[Todb])[0m
+[0m[[0m[33mwarn[0m] [0m[0m                             ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\repositories\MessagesRepository.scala:28:80: method toDocumentReader in trait LowPriorityPackage is deprecated (since 0.19.0): Use reactivemongo-bson-api or use reactivemongo-bson-compat: import reactivemongo.api.bson.compat._[0m
+[0m[[0m[33mwarn[0m] [0m[0m    collection.flatMap(_.find(BSONDocument("id" -> id), Option.empty[Todb]).one[Todb])[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                               ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\repositories\MessagesRepository.scala:33:21: method toDocumentWriter in trait LowPriorityPackage is deprecated (since 0.19.0): Use reactivemongo-bson-api or use reactivemongo-bson-compat: import reactivemongo.api.bson.compat._[0m
+[0m[[0m[33mwarn[0m] [0m[0m      _.delete().one(BSONDocument("_id" -> id), Some(1))[0m
+[0m[[0m[33mwarn[0m] [0m[0m                    ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mfour warnings found[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@4e6fb1bd, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:deneme[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@408a79db, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@7545d7f2, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\Asus\Desktop\scalas\deneme\deneme\target\scala-2.13\classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@1a54aed4, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:deneme[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@58c13f0a, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@1bdd7954, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 2 Scala sources to C:\Users\Asus\Desktop\scalas\deneme\deneme\target\scala-2.13\classes ...[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\models\Todb.scala:22:48: package object json in package json is deprecated (since 0.19.2): Will be replaced `reactivemongo.play.json.compat._` from `reactivemongo-play-json-compat`[0m
+[0m[[0m[33mwarn[0m] [0m[0m  implicit val fmt : Format[Todb] = Json.format[Todb][0m
+[0m[[0m[33mwarn[0m] [0m[0m                                               ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\repositories\MessagesRepository.scala:24:11: method toDocumentWriter in trait LowPriorityPackage is deprecated (since 0.19.0): Use reactivemongo-bson-api or use reactivemongo-bson-compat: import reactivemongo.api.bson.compat._[0m
+[0m[[0m[33mwarn[0m] [0m[0m      .one(todb.copy()))[0m
+[0m[[0m[33mwarn[0m] [0m[0m          ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\repositories\MessagesRepository.scala:28:30: method toDocumentWriter in trait LowPriorityPackage is deprecated (since 0.19.0): Use reactivemongo-bson-api or use reactivemongo-bson-compat: import reactivemongo.api.bson.compat._[0m
+[0m[[0m[33mwarn[0m] [0m[0m    collection.flatMap(_.find(BSONDocument("id" -> id), Option.empty[Todb]).one[Todb])[0m
+[0m[[0m[33mwarn[0m] [0m[0m                             ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\repositories\MessagesRepository.scala:28:80: method toDocumentReader in trait LowPriorityPackage is deprecated (since 0.19.0): Use reactivemongo-bson-api or use reactivemongo-bson-compat: import reactivemongo.api.bson.compat._[0m
+[0m[[0m[33mwarn[0m] [0m[0m    collection.flatMap(_.find(BSONDocument("id" -> id), Option.empty[Todb]).one[Todb])[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                               ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\repositories\MessagesRepository.scala:33:21: method toDocumentWriter in trait LowPriorityPackage is deprecated (since 0.19.0): Use reactivemongo-bson-api or use reactivemongo-bson-compat: import reactivemongo.api.bson.compat._[0m
+[0m[[0m[33mwarn[0m] [0m[0m      _.delete().one(BSONDocument("_id" -> id), Some(1))[0m
+[0m[[0m[33mwarn[0m] [0m[0m                    ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m5 warnings found[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 2 Scala sources to C:\Users\Asus\Desktop\scalas\deneme\deneme\target\scala-2.13\classes ...[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\repositories\MessagesRepository.scala:24:11: method toDocumentWriter in trait LowPriorityPackage is deprecated (since 0.19.0): Use reactivemongo-bson-api or use reactivemongo-bson-compat: import reactivemongo.api.bson.compat._[0m
+[0m[[0m[33mwarn[0m] [0m[0m      .one(todb.copy()))[0m
+[0m[[0m[33mwarn[0m] [0m[0m          ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\repositories\MessagesRepository.scala:28:30: method toDocumentWriter in trait LowPriorityPackage is deprecated (since 0.19.0): Use reactivemongo-bson-api or use reactivemongo-bson-compat: import reactivemongo.api.bson.compat._[0m
+[0m[[0m[33mwarn[0m] [0m[0m    collection.flatMap(_.find(BSONDocument("id" -> id), Option.empty[Todb]).one[Todb])[0m
+[0m[[0m[33mwarn[0m] [0m[0m                             ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\repositories\MessagesRepository.scala:28:80: method toDocumentReader in trait LowPriorityPackage is deprecated (since 0.19.0): Use reactivemongo-bson-api or use reactivemongo-bson-compat: import reactivemongo.api.bson.compat._[0m
+[0m[[0m[33mwarn[0m] [0m[0m    collection.flatMap(_.find(BSONDocument("id" -> id), Option.empty[Todb]).one[Todb])[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                               ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\repositories\MessagesRepository.scala:33:21: method toDocumentWriter in trait LowPriorityPackage is deprecated (since 0.19.0): Use reactivemongo-bson-api or use reactivemongo-bson-compat: import reactivemongo.api.bson.compat._[0m
+[0m[[0m[33mwarn[0m] [0m[0m      _.delete().one(BSONDocument("_id" -> id), Some(1))[0m
+[0m[[0m[33mwarn[0m] [0m[0m                    ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mfour warnings found[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@1da4911e, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:deneme[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@1f2eaa2e, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@5b842383, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\Asus\Desktop\scalas\deneme\deneme\target\scala-2.13\classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@32dee81d, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:deneme[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@70d27a9c, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@246de3aa, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\Asus\Desktop\scalas\deneme\deneme\target\scala-2.13\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\models\Todb.scala:38:23: value _id is not a member of models.Todb[0m
+[0m[[0m[31merror[0m] [0m[0m        "_id" -> todb._id,[0m
+[0m[[0m[31merror[0m] [0m[0m                      ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@3e1f3c58, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@55b1d415, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@4a5d21e2, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\Asus\Desktop\scalas\deneme\deneme\target\scala-2.13\classes ...[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\models\Todb.scala:22:48: package object json in package json is deprecated (since 0.19.2): Will be replaced `reactivemongo.play.json.compat._` from `reactivemongo-play-json-compat`[0m
+[0m[[0m[33mwarn[0m] [0m[0m  implicit val fmt : Format[Todb] = Json.format[Todb][0m
+[0m[[0m[33mwarn[0m] [0m[0m                                               ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 2 Scala sources to C:\Users\Asus\Desktop\scalas\deneme\deneme\target\scala-2.13\classes ...[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\repositories\MessagesRepository.scala:24:11: method toDocumentWriter in trait LowPriorityPackage is deprecated (since 0.19.0): Use reactivemongo-bson-api or use reactivemongo-bson-compat: import reactivemongo.api.bson.compat._[0m
+[0m[[0m[33mwarn[0m] [0m[0m      .one(todb.copy()))[0m
+[0m[[0m[33mwarn[0m] [0m[0m          ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\repositories\MessagesRepository.scala:28:30: method toDocumentWriter in trait LowPriorityPackage is deprecated (since 0.19.0): Use reactivemongo-bson-api or use reactivemongo-bson-compat: import reactivemongo.api.bson.compat._[0m
+[0m[[0m[33mwarn[0m] [0m[0m    collection.flatMap(_.find(BSONDocument("id" -> id), Option.empty[Todb]).one[Todb])[0m
+[0m[[0m[33mwarn[0m] [0m[0m                             ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\repositories\MessagesRepository.scala:28:80: method toDocumentReader in trait LowPriorityPackage is deprecated (since 0.19.0): Use reactivemongo-bson-api or use reactivemongo-bson-compat: import reactivemongo.api.bson.compat._[0m
+[0m[[0m[33mwarn[0m] [0m[0m    collection.flatMap(_.find(BSONDocument("id" -> id), Option.empty[Todb]).one[Todb])[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                               ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\repositories\MessagesRepository.scala:33:21: method toDocumentWriter in trait LowPriorityPackage is deprecated (since 0.19.0): Use reactivemongo-bson-api or use reactivemongo-bson-compat: import reactivemongo.api.bson.compat._[0m
+[0m[[0m[33mwarn[0m] [0m[0m      _.delete().one(BSONDocument("_id" -> id), Some(1))[0m
+[0m[[0m[33mwarn[0m] [0m[0m                    ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mfour warnings found[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@17bf829b, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:deneme[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@30b85d52, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@25f43ce4, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\Asus\Desktop\scalas\deneme\deneme\target\scala-2.13\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\repositories\MessagesRepository.scala:28:53: not found: value _id[0m
+[0m[[0m[31merror[0m] [0m[0m    collection.flatMap(_.find(BSONDocument("_id" -> _id), Option.empty[Todb]).one[Todb])[0m
+[0m[[0m[31merror[0m] [0m[0m                                                    ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@276dbfe4, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@1c141fef, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@3c1166fe, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 3 Scala sources to C:\Users\Asus\Desktop\scalas\deneme\deneme\target\scala-2.13\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\models\Todb.scala:26:32: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : Option[reactivemongo.bson.BSONObjectID][0m
+[0m[[0m[31merror[0m] [0m[0m required: String[0m
+[0m[[0m[31merror[0m] [0m[0m        doc.getAs[BSONObjectID]("id"),[0m
+[0m[[0m[31merror[0m] [0m[0m                               ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@54b30ea7, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@664f018d, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@74fc6964, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 3 Scala sources to C:\Users\Asus\Desktop\scalas\deneme\deneme\target\scala-2.13\classes ...[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\repositories\MessagesRepository.scala:27:11: method toDocumentWriter in trait LowPriorityPackage is deprecated (since 0.19.0): Use reactivemongo-bson-api or use reactivemongo-bson-compat: import reactivemongo.api.bson.compat._[0m
+[0m[[0m[33mwarn[0m] [0m[0m      .one(todb.copy()))[0m
+[0m[[0m[33mwarn[0m] [0m[0m          ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\repositories\MessagesRepository.scala:31:30: method toDocumentWriter in trait LowPriorityPackage is deprecated (since 0.19.0): Use reactivemongo-bson-api or use reactivemongo-bson-compat: import reactivemongo.api.bson.compat._[0m
+[0m[[0m[33mwarn[0m] [0m[0m    collection.flatMap(_.find(BSONDocument("_id" -> id), Option.empty[Todb]).one[Todb])[0m
+[0m[[0m[33mwarn[0m] [0m[0m                             ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\repositories\MessagesRepository.scala:31:81: method toDocumentReader in trait LowPriorityPackage is deprecated (since 0.19.0): Use reactivemongo-bson-api or use reactivemongo-bson-compat: import reactivemongo.api.bson.compat._[0m
+[0m[[0m[33mwarn[0m] [0m[0m    collection.flatMap(_.find(BSONDocument("_id" -> id), Option.empty[Todb]).one[Todb])[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                                ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\repositories\MessagesRepository.scala:36:21: method toDocumentWriter in trait LowPriorityPackage is deprecated (since 0.19.0): Use reactivemongo-bson-api or use reactivemongo-bson-compat: import reactivemongo.api.bson.compat._[0m
+[0m[[0m[33mwarn[0m] [0m[0m      _.delete().one(BSONDocument("_id" -> id), Some(1))[0m
+[0m[[0m[33mwarn[0m] [0m[0m                    ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mfour warnings found[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@63365a64, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:deneme[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@5a93bd8c, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@165951e5, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\Asus\Desktop\scalas\deneme\deneme\target\scala-2.13\classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@2597f1ba, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:deneme[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@64dbd6ff, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@53d99d5f, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 2 Scala sources to C:\Users\Asus\Desktop\scalas\deneme\deneme\target\scala-2.13\classes ...[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\models\Todb.scala:22:48: package object json in package json is deprecated (since 0.19.2): Will be replaced `reactivemongo.play.json.compat._` from `reactivemongo-play-json-compat`[0m
+[0m[[0m[33mwarn[0m] [0m[0m  implicit val fmt : Format[Todb] = Json.format[Todb][0m
+[0m[[0m[33mwarn[0m] [0m[0m                                               ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\repositories\MessagesRepository.scala:27:11: method toDocumentWriter in trait LowPriorityPackage is deprecated (since 0.19.0): Use reactivemongo-bson-api or use reactivemongo-bson-compat: import reactivemongo.api.bson.compat._[0m
+[0m[[0m[33mwarn[0m] [0m[0m      .one(todb.copy()))[0m
+[0m[[0m[33mwarn[0m] [0m[0m          ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\repositories\MessagesRepository.scala:31:30: method toDocumentWriter in trait LowPriorityPackage is deprecated (since 0.19.0): Use reactivemongo-bson-api or use reactivemongo-bson-compat: import reactivemongo.api.bson.compat._[0m
+[0m[[0m[33mwarn[0m] [0m[0m    collection.flatMap(_.find(BSONDocument("_id" -> id), Option.empty[Todb]).one[Todb])[0m
+[0m[[0m[33mwarn[0m] [0m[0m                             ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\repositories\MessagesRepository.scala:31:81: method toDocumentReader in trait LowPriorityPackage is deprecated (since 0.19.0): Use reactivemongo-bson-api or use reactivemongo-bson-compat: import reactivemongo.api.bson.compat._[0m
+[0m[[0m[33mwarn[0m] [0m[0m    collection.flatMap(_.find(BSONDocument("_id" -> id), Option.empty[Todb]).one[Todb])[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                                ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\repositories\MessagesRepository.scala:36:21: method toDocumentWriter in trait LowPriorityPackage is deprecated (since 0.19.0): Use reactivemongo-bson-api or use reactivemongo-bson-compat: import reactivemongo.api.bson.compat._[0m
+[0m[[0m[33mwarn[0m] [0m[0m      _.delete().one(BSONDocument("_id" -> id), Some(1))[0m
+[0m[[0m[33mwarn[0m] [0m[0m                    ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m5 warnings found[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 2 Scala sources to C:\Users\Asus\Desktop\scalas\deneme\deneme\target\scala-2.13\classes ...[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\repositories\MessagesRepository.scala:27:11: method toDocumentWriter in trait LowPriorityPackage is deprecated (since 0.19.0): Use reactivemongo-bson-api or use reactivemongo-bson-compat: import reactivemongo.api.bson.compat._[0m
+[0m[[0m[33mwarn[0m] [0m[0m      .one(todb.copy()))[0m
+[0m[[0m[33mwarn[0m] [0m[0m          ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\repositories\MessagesRepository.scala:31:30: method toDocumentWriter in trait LowPriorityPackage is deprecated (since 0.19.0): Use reactivemongo-bson-api or use reactivemongo-bson-compat: import reactivemongo.api.bson.compat._[0m
+[0m[[0m[33mwarn[0m] [0m[0m    collection.flatMap(_.find(BSONDocument("_id" -> id), Option.empty[Todb]).one[Todb])[0m
+[0m[[0m[33mwarn[0m] [0m[0m                             ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\repositories\MessagesRepository.scala:31:81: method toDocumentReader in trait LowPriorityPackage is deprecated (since 0.19.0): Use reactivemongo-bson-api or use reactivemongo-bson-compat: import reactivemongo.api.bson.compat._[0m
+[0m[[0m[33mwarn[0m] [0m[0m    collection.flatMap(_.find(BSONDocument("_id" -> id), Option.empty[Todb]).one[Todb])[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                                ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\repositories\MessagesRepository.scala:36:21: method toDocumentWriter in trait LowPriorityPackage is deprecated (since 0.19.0): Use reactivemongo-bson-api or use reactivemongo-bson-compat: import reactivemongo.api.bson.compat._[0m
+[0m[[0m[33mwarn[0m] [0m[0m      _.delete().one(BSONDocument("_id" -> id), Some(1))[0m
+[0m[[0m[33mwarn[0m] [0m[0m                    ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mfour warnings found[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@1fd3c647, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:deneme[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@41bb9d9a, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@6c01b660, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 3 Scala sources to C:\Users\Asus\Desktop\scalas\deneme\deneme\target\scala-2.13\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\repositories\MessagesRepository.scala:28:53: not found: value _id[0m
+[0m[[0m[31merror[0m] [0m[0m    collection.flatMap(_.find(BSONDocument("_id" -> _id), Option.empty[Todb]).one[Todb])[0m
+[0m[[0m[31merror[0m] [0m[0m                                                    ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@72405e3a, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@6a9d417f, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@43fc8416, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 3 Scala sources to C:\Users\Asus\Desktop\scalas\deneme\deneme\target\scala-2.13\classes ...[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\repositories\MessagesRepository.scala:27:11: method toDocumentWriter in trait LowPriorityPackage is deprecated (since 0.19.0): Use reactivemongo-bson-api or use reactivemongo-bson-compat: import reactivemongo.api.bson.compat._[0m
+[0m[[0m[33mwarn[0m] [0m[0m      .one(todb.copy()))[0m
+[0m[[0m[33mwarn[0m] [0m[0m          ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\repositories\MessagesRepository.scala:31:30: method toDocumentWriter in trait LowPriorityPackage is deprecated (since 0.19.0): Use reactivemongo-bson-api or use reactivemongo-bson-compat: import reactivemongo.api.bson.compat._[0m
+[0m[[0m[33mwarn[0m] [0m[0m    collection.flatMap(_.find(BSONDocument("_id" -> id), Option.empty[Todb]).one[Todb])[0m
+[0m[[0m[33mwarn[0m] [0m[0m                             ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\repositories\MessagesRepository.scala:31:81: method toDocumentReader in trait LowPriorityPackage is deprecated (since 0.19.0): Use reactivemongo-bson-api or use reactivemongo-bson-compat: import reactivemongo.api.bson.compat._[0m
+[0m[[0m[33mwarn[0m] [0m[0m    collection.flatMap(_.find(BSONDocument("_id" -> id), Option.empty[Todb]).one[Todb])[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                                ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\repositories\MessagesRepository.scala:36:21: method toDocumentWriter in trait LowPriorityPackage is deprecated (since 0.19.0): Use reactivemongo-bson-api or use reactivemongo-bson-compat: import reactivemongo.api.bson.compat._[0m
+[0m[[0m[33mwarn[0m] [0m[0m      _.delete().one(BSONDocument("_id" -> id), Some(1))[0m
+[0m[[0m[33mwarn[0m] [0m[0m                    ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mfour warnings found[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@1f032f2a, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:deneme[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@1c35fc83, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@6496bf8e, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 8 Scala sources and 1 Java source to C:\Users\Asus\Desktop\scalas\deneme\deneme\target\scala-2.13\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\controllers\MessagesController.scala:83:3: not found: value MessageRepository[0m
+[0m[[0m[31merror[0m] [0m[0m  MessageRepository.findAll().map {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@1bae49b1, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@473027cc, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@6249117b, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 8 Scala sources and 1 Java source to C:\Users\Asus\Desktop\scalas\deneme\deneme\target\scala-2.13\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\controllers\MessagesController.scala:83:3: not found: value MessagesRepository[0m
+[0m[[0m[31merror[0m] [0m[0m  MessagesRepository.findAll().map {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@13c2a1e7, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@2076835, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@4a26ecc9, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 3 Scala sources to C:\Users\Asus\Desktop\scalas\deneme\deneme\target\scala-2.13\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\conf\routes:4:1: value findAll is not a member of controllers.MessagesController[0m
+[0m[[0m[31merror[0m] [0m[0mGET     /messages                controllers.MessagesController.findAll()[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@56752efe, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@298612f7, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@654ff61c, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 3 Scala sources to C:\Users\Asus\Desktop\scalas\deneme\deneme\target\scala-2.13\classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@26e4d2cb, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:deneme[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@1663109, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@49ae52f3, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 3 Scala sources to C:\Users\Asus\Desktop\scalas\deneme\deneme\target\scala-2.13\classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@76ea072e, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:deneme[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@7b4a8605, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@24c40077, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\Asus\Desktop\scalas\deneme\deneme\target\scala-2.13\classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@d1a752d, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:deneme[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@901d56e, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@2ee165ec, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\Asus\Desktop\scalas\deneme\deneme\target\scala-2.13\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\repositories\MessagesRepository.scala:31:53: not found: value _id[0m
+[0m[[0m[31merror[0m] [0m[0m    collection.flatMap(_.find(BSONDocument("_id" -> _id), Option.empty[Todb]).one[Todb])[0m
+[0m[[0m[31merror[0m] [0m[0m                                                    ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@28d6a8a4, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@35f4fb9e, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@4d9e9963, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\Asus\Desktop\scalas\deneme\deneme\target\scala-2.13\classes ...[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\repositories\MessagesRepository.scala:27:11: method toDocumentWriter in trait LowPriorityPackage is deprecated (since 0.19.0): Use reactivemongo-bson-api or use reactivemongo-bson-compat: import reactivemongo.api.bson.compat._[0m
+[0m[[0m[33mwarn[0m] [0m[0m      .one(todb.copy()))[0m
+[0m[[0m[33mwarn[0m] [0m[0m          ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\repositories\MessagesRepository.scala:31:30: method toDocumentWriter in trait LowPriorityPackage is deprecated (since 0.19.0): Use reactivemongo-bson-api or use reactivemongo-bson-compat: import reactivemongo.api.bson.compat._[0m
+[0m[[0m[33mwarn[0m] [0m[0m    collection.flatMap(_.find(BSONDocument("id" -> id), Option.empty[Todb]).one[Todb])[0m
+[0m[[0m[33mwarn[0m] [0m[0m                             ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\repositories\MessagesRepository.scala:31:80: method toDocumentReader in trait LowPriorityPackage is deprecated (since 0.19.0): Use reactivemongo-bson-api or use reactivemongo-bson-compat: import reactivemongo.api.bson.compat._[0m
+[0m[[0m[33mwarn[0m] [0m[0m    collection.flatMap(_.find(BSONDocument("id" -> id), Option.empty[Todb]).one[Todb])[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                               ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\repositories\MessagesRepository.scala:36:21: method toDocumentWriter in trait LowPriorityPackage is deprecated (since 0.19.0): Use reactivemongo-bson-api or use reactivemongo-bson-compat: import reactivemongo.api.bson.compat._[0m
+[0m[[0m[33mwarn[0m] [0m[0m      _.delete().one(BSONDocument("_id" -> id), Some(1))[0m
+[0m[[0m[33mwarn[0m] [0m[0m                    ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mfour warnings found[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@22493f4e, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:deneme[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@215ec2a9, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@586f5906, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\Asus\Desktop\scalas\deneme\deneme\target\scala-2.13\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\repositories\MessagesRepository.scala:30:26: type id is not a member of object models.Todb[0m
+[0m[[0m[31merror[0m] [0m[0m    def findOne(id: Todb.id): Future[Option[Todb]] = {[0m
+[0m[[0m[31merror[0m] [0m[0m                         ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@25cb8bdc, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@5169d371, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@3e75f615, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\Asus\Desktop\scalas\deneme\deneme\target\scala-2.13\classes ...[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\repositories\MessagesRepository.scala:27:11: method toDocumentWriter in trait LowPriorityPackage is deprecated (since 0.19.0): Use reactivemongo-bson-api or use reactivemongo-bson-compat: import reactivemongo.api.bson.compat._[0m
+[0m[[0m[33mwarn[0m] [0m[0m      .one(todb.copy()))[0m
+[0m[[0m[33mwarn[0m] [0m[0m          ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\repositories\MessagesRepository.scala:31:30: method toDocumentWriter in trait LowPriorityPackage is deprecated (since 0.19.0): Use reactivemongo-bson-api or use reactivemongo-bson-compat: import reactivemongo.api.bson.compat._[0m
+[0m[[0m[33mwarn[0m] [0m[0m    collection.flatMap(_.find(BSONDocument("id" -> id), Option.empty[Todb]).one[Todb])[0m
+[0m[[0m[33mwarn[0m] [0m[0m                             ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\repositories\MessagesRepository.scala:31:80: method toDocumentReader in trait LowPriorityPackage is deprecated (since 0.19.0): Use reactivemongo-bson-api or use reactivemongo-bson-compat: import reactivemongo.api.bson.compat._[0m
+[0m[[0m[33mwarn[0m] [0m[0m    collection.flatMap(_.find(BSONDocument("id" -> id), Option.empty[Todb]).one[Todb])[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                               ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\repositories\MessagesRepository.scala:36:21: method toDocumentWriter in trait LowPriorityPackage is deprecated (since 0.19.0): Use reactivemongo-bson-api or use reactivemongo-bson-compat: import reactivemongo.api.bson.compat._[0m
+[0m[[0m[33mwarn[0m] [0m[0m      _.delete().one(BSONDocument("_id" -> id), Some(1))[0m
+[0m[[0m[33mwarn[0m] [0m[0m                    ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mfour warnings found[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\Asus\Desktop\scalas\deneme\deneme\target\scala-2.13\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\controllers\MessagesController.scala:64:58: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : reactivemongo.bson.BSONObjectID[0m
+[0m[[0m[31merror[0m] [0m[0m required: String[0m
+[0m[[0m[31merror[0m] [0m[0m    case Success(objectId) => messagesRepository.findOne(objectId).map {[0m
+[0m[[0m[31merror[0m] [0m[0m                                                         ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@17c52cd8, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@3ba22e23, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@5092fb8e, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@3df88955, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:deneme[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@77bb6630, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@5a21ec50, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 4 Scala sources to C:\Users\Asus\Desktop\scalas\deneme\deneme\target\scala-2.13\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\controllers\MessagesController.scala:28:25: Unmatched closing brace '}' ignored here[0m
+[0m[[0m[31merror[0m] [0m[0m   Ok(Json.toJson("ok"))}}[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@7bacf5d, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@5eb8d7cd, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@4f539a14, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 4 Scala sources to C:\Users\Asus\Desktop\scalas\deneme\deneme\target\scala-2.13\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\controllers\MessagesController.scala:28:6: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : play.api.mvc.Result[0m
+[0m[[0m[31merror[0m] [0m[0m required: scala.concurrent.Future[play.api.mvc.Result][0m
+[0m[[0m[31merror[0m] [0m[0m   Ok(Json.toJson("ok"))}[0m
+[0m[[0m[31merror[0m] [0m[0m     ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\conf\routes:4:1: value check is not a member of controllers.MessagesController[0m
+[0m[[0m[31merror[0m] [0m[0mdid you mean chech?[0m
+[0m[[0m[31merror[0m] [0m[0mGET     /healthcheck             controllers.MessagesController.check()[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@9bdd7f, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@54bd1caa, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@67198da0, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 3 Scala sources to C:\Users\Asus\Desktop\scalas\deneme\deneme\target\scala-2.13\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\conf\routes:4:1: value check is not a member of controllers.MessagesController[0m
+[0m[[0m[31merror[0m] [0m[0mGET     /healthcheck             controllers.MessagesController.check()[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@212a460d, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@6b5af966, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@56617938, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@2e6ad398, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:deneme[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@3f09c6a3, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@10f7d135, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 4 Scala sources to C:\Users\Asus\Desktop\scalas\deneme\deneme\target\scala-2.13\classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source and 1 Java source to C:\Users\Asus\Desktop\scalas\deneme\deneme\target\scala-2.13\classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@3abc9c02, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:deneme[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@45d395da, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@7180904, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\Asus\Desktop\scalas\deneme\deneme\target\scala-2.13\classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@59fd3681, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:deneme[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@1c3e250, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@182c025c, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\Asus\Desktop\scalas\deneme\deneme\target\scala-2.13\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\controllers\MessagesController.scala:83:18: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : String("status ")[0m
+[0m[[0m[31merror[0m] [0m[0m required: "ok"[0m
+[0m[[0m[31merror[0m] [0m[0m  Ok(Json.toJson("status ":"ok"))}[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@6703c24f, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@5c1e664e, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@527ea932, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\Asus\Desktop\scalas\deneme\deneme\target\scala-2.13\classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@7cdb2e4e, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:deneme[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@235bb38, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@4b9460d2, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\Asus\Desktop\scalas\deneme\deneme\target\scala-2.13\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\controllers\MessagesController.scala:83:5: Cannot write an instance of Seq[(String, play.api.libs.json.JsString)] to HTTP response. Try to define a Writeable[Seq[(String, play.api.libs.json.JsString)]][0m
+[0m[[0m[31merror[0m] [0m[0m  Ok(Seq([0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@7aff1e2d, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@3b29c44e, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@647989e5, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\Asus\Desktop\scalas\deneme\deneme\target\scala-2.13\classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@553aa0c, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:deneme[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@3b0e1ec2, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@12365b66, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\Asus\Desktop\scalas\deneme\deneme\target\scala-2.13\classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@363e8729, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:deneme[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@566188b9, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@55643b00, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\Asus\Desktop\scalas\deneme\deneme\target\scala-2.13\classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@774e993a, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:deneme[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@5a24, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@4f173be7, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\Asus\Desktop\scalas\deneme\deneme\target\scala-2.13\classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@5f6e46ce, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:deneme[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@7bc3966, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@408e210f, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\Asus\Desktop\scalas\deneme\deneme\target\scala-2.13\classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@6dc14f4b, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:deneme[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@11ad5538, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@4a98bc6b, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\Asus\Desktop\scalas\deneme\deneme\target\scala-2.13\classes ...[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\repositories\MessagesRepository.scala:27:11: method toDocumentWriter in trait LowPriorityPackage is deprecated (since 0.19.0): Use reactivemongo-bson-api or use reactivemongo-bson-compat: import reactivemongo.api.bson.compat._[0m
+[0m[[0m[33mwarn[0m] [0m[0m      .one(todb.copy()))[0m
+[0m[[0m[33mwarn[0m] [0m[0m          ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\repositories\MessagesRepository.scala:31:30: method toDocumentWriter in trait LowPriorityPackage is deprecated (since 0.19.0): Use reactivemongo-bson-api or use reactivemongo-bson-compat: import reactivemongo.api.bson.compat._[0m
+[0m[[0m[33mwarn[0m] [0m[0m    collection.flatMap(_.find(BSONDocument("_id" -> id), Option.empty[Todb]).one[Todb])[0m
+[0m[[0m[33mwarn[0m] [0m[0m                             ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\repositories\MessagesRepository.scala:31:81: method toDocumentReader in trait LowPriorityPackage is deprecated (since 0.19.0): Use reactivemongo-bson-api or use reactivemongo-bson-compat: import reactivemongo.api.bson.compat._[0m
+[0m[[0m[33mwarn[0m] [0m[0m    collection.flatMap(_.find(BSONDocument("_id" -> id), Option.empty[Todb]).one[Todb])[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                                ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\repositories\MessagesRepository.scala:36:21: method toDocumentWriter in trait LowPriorityPackage is deprecated (since 0.19.0): Use reactivemongo-bson-api or use reactivemongo-bson-compat: import reactivemongo.api.bson.compat._[0m
+[0m[[0m[33mwarn[0m] [0m[0m      _.delete().one(BSONDocument("_id" -> id), Some(1))[0m
+[0m[[0m[33mwarn[0m] [0m[0m                    ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mfour warnings found[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@515cf1f6, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:deneme[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@688fa470, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@583116f2, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 2 Scala sources to C:\Users\Asus\Desktop\scalas\deneme\deneme\target\scala-2.13\classes ...[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\models\Todb.scala:22:48: package object json in package json is deprecated (since 0.19.2): Will be replaced `reactivemongo.play.json.compat._` from `reactivemongo-play-json-compat`[0m
+[0m[[0m[33mwarn[0m] [0m[0m  implicit val fmt : Format[Todb] = Json.format[Todb][0m
+[0m[[0m[33mwarn[0m] [0m[0m                                               ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\repositories\MessagesRepository.scala:27:11: method toDocumentWriter in trait LowPriorityPackage is deprecated (since 0.19.0): Use reactivemongo-bson-api or use reactivemongo-bson-compat: import reactivemongo.api.bson.compat._[0m
+[0m[[0m[33mwarn[0m] [0m[0m      .one(todb.copy()))[0m
+[0m[[0m[33mwarn[0m] [0m[0m          ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\repositories\MessagesRepository.scala:31:30: method toDocumentWriter in trait LowPriorityPackage is deprecated (since 0.19.0): Use reactivemongo-bson-api or use reactivemongo-bson-compat: import reactivemongo.api.bson.compat._[0m
+[0m[[0m[33mwarn[0m] [0m[0m    collection.flatMap(_.find(BSONDocument("_id" -> id), Option.empty[Todb]).one[Todb])[0m
+[0m[[0m[33mwarn[0m] [0m[0m                             ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\repositories\MessagesRepository.scala:31:81: method toDocumentReader in trait LowPriorityPackage is deprecated (since 0.19.0): Use reactivemongo-bson-api or use reactivemongo-bson-compat: import reactivemongo.api.bson.compat._[0m
+[0m[[0m[33mwarn[0m] [0m[0m    collection.flatMap(_.find(BSONDocument("_id" -> id), Option.empty[Todb]).one[Todb])[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                                ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\repositories\MessagesRepository.scala:36:21: method toDocumentWriter in trait LowPriorityPackage is deprecated (since 0.19.0): Use reactivemongo-bson-api or use reactivemongo-bson-compat: import reactivemongo.api.bson.compat._[0m
+[0m[[0m[33mwarn[0m] [0m[0m      _.delete().one(BSONDocument("_id" -> id), Some(1))[0m
+[0m[[0m[33mwarn[0m] [0m[0m                    ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m5 warnings found[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 2 Scala sources to C:\Users\Asus\Desktop\scalas\deneme\deneme\target\scala-2.13\classes ...[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\repositories\MessagesRepository.scala:27:11: method toDocumentWriter in trait LowPriorityPackage is deprecated (since 0.19.0): Use reactivemongo-bson-api or use reactivemongo-bson-compat: import reactivemongo.api.bson.compat._[0m
+[0m[[0m[33mwarn[0m] [0m[0m      .one(todb.copy()))[0m
+[0m[[0m[33mwarn[0m] [0m[0m          ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\repositories\MessagesRepository.scala:31:30: method toDocumentWriter in trait LowPriorityPackage is deprecated (since 0.19.0): Use reactivemongo-bson-api or use reactivemongo-bson-compat: import reactivemongo.api.bson.compat._[0m
+[0m[[0m[33mwarn[0m] [0m[0m    collection.flatMap(_.find(BSONDocument("_id" -> id), Option.empty[Todb]).one[Todb])[0m
+[0m[[0m[33mwarn[0m] [0m[0m                             ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\repositories\MessagesRepository.scala:31:81: method toDocumentReader in trait LowPriorityPackage is deprecated (since 0.19.0): Use reactivemongo-bson-api or use reactivemongo-bson-compat: import reactivemongo.api.bson.compat._[0m
+[0m[[0m[33mwarn[0m] [0m[0m    collection.flatMap(_.find(BSONDocument("_id" -> id), Option.empty[Todb]).one[Todb])[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                                ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\Asus\Desktop\scalas\deneme\deneme\app\repositories\MessagesRepository.scala:36:21: method toDocumentWriter in trait LowPriorityPackage is deprecated (since 0.19.0): Use reactivemongo-bson-api or use reactivemongo-bson-compat: import reactivemongo.api.bson.compat._[0m
+[0m[[0m[33mwarn[0m] [0m[0m      _.delete().one(BSONDocument("_id" -> id), Some(1))[0m
+[0m[[0m[33mwarn[0m] [0m[0m                    ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mfour warnings found[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@d89c2cb, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:deneme[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@4efd555a, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@46585157, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\Asus\Desktop\scalas\deneme\deneme\target\scala-2.13\classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@641534b1, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:deneme[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@62593542, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@510cca4a, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\Asus\Desktop\scalas\deneme\deneme\target\scala-2.13\classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@4a35b3f4, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:deneme[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@976bb56, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@4513e009, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@7924f8a1, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:deneme[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@e6d9a86, check cycles: false, forcegc: true[0m
