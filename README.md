@@ -1,6 +1,6 @@
 # Scala-Rest
 
-1-->  https://github.com/ahmetsalavran/Scala-Rest.git
+1-->  git clone https://github.com/ahmetsalavran/Scala-Rest.git
 
 2--> cd Scala-Rest
 
