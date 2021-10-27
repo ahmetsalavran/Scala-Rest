@@ -34,3 +34,18 @@ curl --location --request GET 'http://localhost:9000/messages?tag=FuckThePolice,
 --header 'User-Agent: emilie' \
 --header 'Content-Type: application/json' \
 --data-raw '{"message":"Oh my gosh! It’s racism #FuckThePolice #BlackLivesMatters"}'
+
+```html
+<h2>Example of code</h2>
+
+<pre>
+    <div class="container">
+        <div class="block two first">
+            <h2>Your title</h2>
+            <div class="wrap">
+            //Your content
+            </div>
+        </div>
+    </div>
+</pre>
+```
