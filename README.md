@@ -35,4 +35,4 @@ curl --location --request GET 'http://localhost:9000/messages?tag=FuckThePolice,
 --header 'Content-Type: application/json' \
 --data-raw '{"message":"Oh my gosh! It’s racism #FuckThePolice #BlackLivesMatters"}'
 
-[Link to Google](https://www.google.com)
+https://github.com/ahmetsalavran/Scala-Rest/blob/main/report.html
